@@ -1,0 +1,25 @@
+# Local proprietary firmware extracts, binaries and generated art
+neoui_workspace/asset_dump/
+neoui_workspace/*.bin
+neoui_workspace/*.mcf
+neoui_workspace/*.cff
+neoui_workspace/*.zip
+neoui_build/*.mcf
+neoui_build/*.zip
+neoui_build/*.bin
+neoui_previews/extracted/
+neoui_previews/*.png
+neoui_previews/*.jpg
+
+neoui_previews/**/
+neoui_workspace/refs/
+neoui_workspace/asset_dump/
+
+__pycache__/
+*.py[cod]
+neoui_previews/
+
+# Full decoded firmware tables are local-only
+neoui_reports/resolved_images_res.json
+neoui_reports/RESOLVED_RESOURCE_MAP.csv
+neoui_reports/viewhandler_image_symbols.csv

@@ -1,0 +1,22 @@
+# Original firmware and extracted files
+MHI2_ER_*/
+app50_extract/
+app50_extracted/
+*.img
+*.7z
+*.bak
+
+# Generated firmware resources
+*.mcf
+*.mcf.delta
+*.cff
+*.mxf.gz
+
+# Temporary and generated files
+NeoUI_v3/build/
+NeoUI_v3/temp/
+NeoUI_v3/output/
+*.log
+
+# Local archives
+*.zip

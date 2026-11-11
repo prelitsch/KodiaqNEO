@@ -1,0 +1,21 @@
+{
+  "status": "PASS offline",
+  "changed_records": 54,
+  "new_media_bt_records": 8,
+  "previous46_exact": true,
+  "all_crcs": true,
+  "dimensions_alpha_transparent_rgb_exact": true,
+  "protected_identity_and_bright_glyph_pixels": 63476,
+  "source_list_state_records_distinct": true,
+  "existing_transport_records_compiled_bound": 16,
+  "protected_menu_foundation_records": 106,
+  "navigation_non_controlbar_records_exact": 288,
+  "seekbar_and_mode_masks_exact": true,
+  "independent_restore_exact": true,
+  "local_links_checked": 50,
+  "script_syntax": true,
+  "selector_combinations": 360,
+  "native_png_inspection": "BT source/off, generic source, source-list pressed and native player sample reviewed",
+  "browser_visual_qa": "not performed; local-file browser URL policy; no bypass attempted",
+  "vehicle_tested": false
+}

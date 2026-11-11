@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "firmware": "MHI2_ER_SKG13_P4526",
+  "mu": "1440",
+  "device_target": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+  "installed_baseline": null,
+  "selected_skin": null,
+  "release_ready": false,
+  "current_artifact_role": "v1-based offline design reference; never deploy over an assumed v2 baseline",
+  "v2_device_evidence": "AGENTS.md field-tested findings: installer reported successful replacement; fresh installed bytes and post-reboot graphics/functions unconfirmed",
+  "future_markers": ["INSTALL_V3_NOW", "RESTORE_V2"],
+  "future_install_contract": "explicit review/authorization, mutually exclusive markers, identical mandatory precheck called by install in same invocation; no automatic arming",
+  "current_authorization": "offline work only; no SD or vehicle writes; collector stdout only; no install implementation",
+  "storage": {
+    "units": "1024-byte blocks",
+    "formula": "ceil(current_bytes/1024) + ceil(payload_bytes/1024) + ceil(rollback_staging_bytes/1024) + reserve_kib",
+    "reserve_kib": 102400,
+    "status": "conservative preliminary budget; recompute for actual final payload, backup strategy and filesystem before release"
+  },
+  "known_reference_states": {
+    "mib_pre_neoui": {"sha1": "0a322d581cb320c60bc6be87e2817fcdf20aa2f2", "sha256": "0cd5623541b32eb865716eadd86f978c018797f2b2be83d00289c3f1090886e4", "bytes": 30758884},
+    "neoui_v1": {"sha1": "641c34e42ed5843c1795bf860fd4cb7bbb913fdb", "sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58", "bytes": 32173128},
+    "neoui_v2_pilot": {"sha1": "28e26e2603497571663a93b303e930a2d4787f50", "sha256": "cfe0aabb1e67e2ea06a07ea365fc24f69e3901e0508a02e87ab8525b92dac103", "bytes": 32861680}
+  }
+}

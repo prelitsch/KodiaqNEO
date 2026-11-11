@@ -1,0 +1,2175 @@
+{
+  "source": "Kodiaq Backup\\backup\\MU1440-MHI2_ER_SKG13_P4526-JTH-07623.09.17341003BB\\MU1440-lsd.jxe",
+  "source_sha256": "a55d9cfb69c5756f8202b7f7aa4079d4d5b637ae4c2fd0fe723f1d6816cbeea8",
+  "inspection": "static J9 metadata with method-count checks and reviewed instruction sequences; no firmware execution",
+  "methods": [
+    {
+      "class_name": "de/vw/mib/configuration/internal/SkinInformationServiceImpl",
+      "class_offset": 25641644,
+      "method": "setIntLightAmbientLightColor",
+      "descriptor": "(III)V",
+      "method_offset": 25644916,
+      "code_sha256": "0f590599fe6228af03109226397fbc3e04898766f87f8ad31d2d780d76f2df45",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb4",
+          "cp_index": 51,
+          "target": "loggerLde/vw/mib/log4mib/Logger;"
+        },
+        {
+          "pc": 7,
+          "opcode": "0xb9",
+          "cp_index": 108,
+          "target": "isTraceEnabled(I)Z"
+        },
+        {
+          "pc": 14,
+          "opcode": "0xb4",
+          "cp_index": 51,
+          "target": "loggerLde/vw/mib/log4mib/Logger;"
+        },
+        {
+          "pc": 20,
+          "opcode": "0xb9",
+          "cp_index": 109,
+          "target": "trace(I)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 27,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 33,
+          "opcode": "0xb9",
+          "cp_index": 111,
+          "target": "append(I)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 40,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 46,
+          "opcode": "0xb9",
+          "cp_index": 111,
+          "target": "append(I)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 53,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 59,
+          "opcode": "0xb9",
+          "cp_index": 111,
+          "target": "append(I)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 66,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 71,
+          "opcode": "0xb9",
+          "cp_index": 112,
+          "target": "log()V"
+        },
+        {
+          "pc": 81,
+          "opcode": "0xb5",
+          "cp_index": 96,
+          "target": "isSetEnabledZ"
+        },
+        {
+          "pc": 86,
+          "opcode": "0xb4",
+          "cp_index": 49,
+          "target": "isSetEnabledZ"
+        },
+        {
+          "pc": 97,
+          "opcode": "0xb7",
+          "cp_index": 83,
+          "target": "getColor(III)I"
+        },
+        {
+          "pc": 100,
+          "opcode": "0xb5",
+          "cp_index": 113,
+          "target": "currentBapColorI"
+        },
+        {
+          "pc": 104,
+          "opcode": "0xb4",
+          "cp_index": 59,
+          "target": "bapColors[I"
+        },
+        {
+          "pc": 120,
+          "opcode": "0xb5",
+          "cp_index": 100,
+          "target": "ambientColorEnabledZ"
+        },
+        {
+          "pc": 125,
+          "opcode": "0xb4",
+          "cp_index": 58,
+          "target": "currentBapColorI"
+        },
+        {
+          "pc": 128,
+          "opcode": "0xb5",
+          "cp_index": 101,
+          "target": "ambientColorI"
+        },
+        {
+          "pc": 133,
+          "opcode": "0xb4",
+          "cp_index": 58,
+          "target": "currentBapColorI"
+        },
+        {
+          "pc": 136,
+          "opcode": "0xb5",
+          "cp_index": 115,
+          "target": "ambientInteriorColorI"
+        },
+        {
+          "pc": 142,
+          "opcode": "0xb4",
+          "cp_index": 53,
+          "target": "ambientColorI"
+        },
+        {
+          "pc": 145,
+          "opcode": "0xb7",
+          "cp_index": 84,
+          "target": "getColorForHAS(I)Ljava/lang/String;"
+        },
+        {
+          "pc": 148,
+          "opcode": "0xb5",
+          "cp_index": 103,
+          "target": "srgbColorStringLjava/lang/String;"
+        },
+        {
+          "pc": 156,
+          "opcode": "0xb4",
+          "cp_index": 58,
+          "target": "currentBapColorI"
+        },
+        {
+          "pc": 159,
+          "opcode": "0xb7",
+          "cp_index": 85,
+          "target": "getMapIndex(I)I"
+        },
+        {
+          "pc": 169,
+          "opcode": "0xb4",
+          "cp_index": 58,
+          "target": "currentBapColorI"
+        },
+        {
+          "pc": 173,
+          "opcode": "0xb4",
+          "cp_index": 61,
+          "target": "displayColors[I"
+        },
+        {
+          "pc": 176,
+          "opcode": "0xb7",
+          "cp_index": 86,
+          "target": "getMappedColor(II[I)I"
+        },
+        {
+          "pc": 179,
+          "opcode": "0xb5",
+          "cp_index": 101,
+          "target": "ambientColorI"
+        },
+        {
+          "pc": 187,
+          "opcode": "0xb4",
+          "cp_index": 58,
+          "target": "currentBapColorI"
+        },
+        {
+          "pc": 191,
+          "opcode": "0xb4",
+          "cp_index": 62,
+          "target": "displayLedColors[I"
+        },
+        {
+          "pc": 194,
+          "opcode": "0xb7",
+          "cp_index": 86,
+          "target": "getMappedColor(II[I)I"
+        },
+        {
+          "pc": 197,
+          "opcode": "0xb5",
+          "cp_index": 115,
+          "target": "ambientInteriorColorI"
+        },
+        {
+          "pc": 206,
+          "opcode": "0xb4",
+          "cp_index": 58,
+          "target": "currentBapColorI"
+        },
+        {
+          "pc": 210,
+          "opcode": "0xb4",
+          "cp_index": 63,
+          "target": "srgbColors[I"
+        },
+        {
+          "pc": 213,
+          "opcode": "0xb7",
+          "cp_index": 86,
+          "target": "getMappedColor(II[I)I"
+        },
+        {
+          "pc": 216,
+          "opcode": "0xb7",
+          "cp_index": 84,
+          "target": "getColorForHAS(I)Ljava/lang/String;"
+        },
+        {
+          "pc": 219,
+          "opcode": "0xb5",
+          "cp_index": 103,
+          "target": "srgbColorStringLjava/lang/String;"
+        },
+        {
+          "pc": 224,
+          "opcode": "0xb4",
+          "cp_index": 53,
+          "target": "ambientColorI"
+        },
+        {
+          "pc": 236,
+          "opcode": "0xb5",
+          "cp_index": 100,
+          "target": "ambientColorEnabledZ"
+        },
+        {
+          "pc": 242,
+          "opcode": "0xb4",
+          "cp_index": 53,
+          "target": "ambientColorI"
+        },
+        {
+          "pc": 245,
+          "opcode": "0xb7",
+          "cp_index": 84,
+          "target": "getColorForHAS(I)Ljava/lang/String;"
+        },
+        {
+          "pc": 248,
+          "opcode": "0xb5",
+          "cp_index": 102,
+          "target": "hmiColorStringLjava/lang/String;"
+        },
+        {
+          "pc": 253,
+          "opcode": "0xb7",
+          "cp_index": 87,
+          "target": "notifySkinInformationReceivers(I)V"
+        },
+        {
+          "pc": 258,
+          "opcode": "0xb7",
+          "cp_index": 87,
+          "target": "notifySkinInformationReceivers(I)V"
+        },
+        {
+          "pc": 263,
+          "opcode": "0xb7",
+          "cp_index": 87,
+          "target": "notifySkinInformationReceivers(I)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/configuration/internal/SkinInformationServiceImpl",
+      "class_offset": 25641644,
+      "method": "getAmbientColor",
+      "descriptor": "()I",
+      "method_offset": 25645348,
+      "code_sha256": "26d9f0a421d691a0a31d6919a7cbcbcfc30e64055fc8b87adba32b62cefc14f2",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb4",
+          "cp_index": 51,
+          "target": "loggerLde/vw/mib/log4mib/Logger;"
+        },
+        {
+          "pc": 7,
+          "opcode": "0xb9",
+          "cp_index": 108,
+          "target": "isTraceEnabled(I)Z"
+        },
+        {
+          "pc": 14,
+          "opcode": "0xb4",
+          "cp_index": 51,
+          "target": "loggerLde/vw/mib/log4mib/Logger;"
+        },
+        {
+          "pc": 20,
+          "opcode": "0xb9",
+          "cp_index": 109,
+          "target": "trace(I)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 27,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 32,
+          "opcode": "0xb4",
+          "cp_index": 53,
+          "target": "ambientColorI"
+        },
+        {
+          "pc": 35,
+          "opcode": "0xb7",
+          "cp_index": 88,
+          "target": "getColorAsString(I)Ljava/lang/String;"
+        },
+        {
+          "pc": 40,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 45,
+          "opcode": "0xb9",
+          "cp_index": 112,
+          "target": "log()V"
+        },
+        {
+          "pc": 49,
+          "opcode": "0xb4",
+          "cp_index": 53,
+          "target": "ambientColorI"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/configuration/internal/SkinInformationServiceImpl",
+      "class_offset": 25641644,
+      "method": "getAmbientColor",
+      "descriptor": "(I)I",
+      "method_offset": 25645500,
+      "code_sha256": "eb47bc1e04fd7624f4749a6678a4764789ed7f75ad49a2f71ff80fbaaf5efb28",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb4",
+          "cp_index": 59,
+          "target": "bapColors[I"
+        },
+        {
+          "pc": 15,
+          "opcode": "0xb7",
+          "cp_index": 85,
+          "target": "getMapIndex(I)I"
+        },
+        {
+          "pc": 20,
+          "opcode": "0xb4",
+          "cp_index": 62,
+          "target": "displayLedColors[I"
+        },
+        {
+          "pc": 23,
+          "opcode": "0xb7",
+          "cp_index": 86,
+          "target": "getMappedColor(II[I)I"
+        },
+        {
+          "pc": 28,
+          "opcode": "0xb4",
+          "cp_index": 51,
+          "target": "loggerLde/vw/mib/log4mib/Logger;"
+        },
+        {
+          "pc": 34,
+          "opcode": "0xb9",
+          "cp_index": 108,
+          "target": "isTraceEnabled(I)Z"
+        },
+        {
+          "pc": 41,
+          "opcode": "0xb4",
+          "cp_index": 51,
+          "target": "loggerLde/vw/mib/log4mib/Logger;"
+        },
+        {
+          "pc": 47,
+          "opcode": "0xb9",
+          "cp_index": 109,
+          "target": "trace(I)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 54,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 59,
+          "opcode": "0xb7",
+          "cp_index": 88,
+          "target": "getColorAsString(I)Ljava/lang/String;"
+        },
+        {
+          "pc": 64,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 71,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 76,
+          "opcode": "0xb7",
+          "cp_index": 88,
+          "target": "getColorAsString(I)Ljava/lang/String;"
+        },
+        {
+          "pc": 81,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 86,
+          "opcode": "0xb9",
+          "cp_index": 112,
+          "target": "log()V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/configuration/internal/SkinInformationServiceImpl",
+      "class_offset": 25641644,
+      "method": "getAmbientColor",
+      "descriptor": "(III)I",
+      "method_offset": 25645612,
+      "code_sha256": "0b7124162ec98a9a7188faa01faf4f77dc7785d6c053164374483d8d2e29e65b",
+      "references": [
+        {
+          "pc": 5,
+          "opcode": "0xb7",
+          "cp_index": 83,
+          "target": "getColor(III)I"
+        },
+        {
+          "pc": 8,
+          "opcode": "0xb6",
+          "cp_index": 64,
+          "target": "getAmbientColor(I)I"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/configuration/internal/SkinInformationServiceImpl",
+      "class_offset": 25641644,
+      "method": "getMappedColor",
+      "descriptor": "(II[I)I",
+      "method_offset": 25645728,
+      "code_sha256": "4c1fd233d119b5ed84283b86adfd8ca22c98863b7073735cadaa9cd2170e2de1",
+      "references": [
+        {
+          "pc": 22,
+          "opcode": "0xb4",
+          "cp_index": 66,
+          "target": "defaultColorIndexI"
+        },
+        {
+          "pc": 36,
+          "opcode": "0xb4",
+          "cp_index": 66,
+          "target": "defaultColorIndexI"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/configuration/internal/SkinInformationServiceImpl",
+      "class_offset": 25641644,
+      "method": "readAmbienceColorMap",
+      "descriptor": "()V",
+      "method_offset": 25646556,
+      "code_sha256": "3db6ba973da3ed0bf7ca69e5d505e90daf241205afd764900c0f5aca2d1ef5e4",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xbb",
+          "cp_index": 129,
+          "target": "java/io/File"
+        },
+        {
+          "pc": 5,
+          "opcode": "0xbb",
+          "cp_index": 128,
+          "target": "java/lang/StringBuffer"
+        },
+        {
+          "pc": 9,
+          "opcode": "0xb7",
+          "cp_index": 89,
+          "target": "<init>()V"
+        },
+        {
+          "pc": 13,
+          "opcode": "0xb4",
+          "cp_index": 50,
+          "target": "configurationManagerLde/vw/mib/configuration/ConfigurationManager;"
+        },
+        {
+          "pc": 17,
+          "opcode": "0xb4",
+          "cp_index": 50,
+          "target": "configurationManagerLde/vw/mib/configuration/ConfigurationManager;"
+        },
+        {
+          "pc": 22,
+          "opcode": "0xb9",
+          "cp_index": 130,
+          "target": "getCurrentSkinId()I"
+        },
+        {
+          "pc": 27,
+          "opcode": "0xb9",
+          "cp_index": 131,
+          "target": "getSkinPath(I)Ljava/lang/String;"
+        },
+        {
+          "pc": 30,
+          "opcode": "0xb6",
+          "cp_index": 71,
+          "target": "append(Ljava/lang/String;)Ljava/lang/StringBuffer;"
+        },
+        {
+          "pc": 35,
+          "opcode": "0xb6",
+          "cp_index": 71,
+          "target": "append(Ljava/lang/String;)Ljava/lang/StringBuffer;"
+        },
+        {
+          "pc": 40,
+          "opcode": "0xb6",
+          "cp_index": 71,
+          "target": "append(Ljava/lang/String;)Ljava/lang/StringBuffer;"
+        },
+        {
+          "pc": 45,
+          "opcode": "0xb6",
+          "cp_index": 71,
+          "target": "append(Ljava/lang/String;)Ljava/lang/StringBuffer;"
+        },
+        {
+          "pc": 48,
+          "opcode": "0xb6",
+          "cp_index": 72,
+          "target": "toString()Ljava/lang/String;"
+        },
+        {
+          "pc": 51,
+          "opcode": "0xb7",
+          "cp_index": 93,
+          "target": "<init>(Ljava/lang/String;)V"
+        },
+        {
+          "pc": 55,
+          "opcode": "0xb4",
+          "cp_index": 50,
+          "target": "configurationManagerLde/vw/mib/configuration/ConfigurationManager;"
+        },
+        {
+          "pc": 60,
+          "opcode": "0xb9",
+          "cp_index": 132,
+          "target": "getEncodedVehicleType()Ljava/lang/String;"
+        },
+        {
+          "pc": 63,
+          "opcode": "0xb7",
+          "cp_index": 94,
+          "target": "readAmbienceColorMap(Ljava/io/File;Ljava/lang/String;)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/configuration/internal/SkinInformationServiceImpl",
+      "class_offset": 25641644,
+      "method": "readAmbienceColorMap",
+      "descriptor": "(Ljava/io/File;Ljava/lang/String;)V",
+      "method_offset": 25646644,
+      "code_sha256": "8c02851692e1df803984073d133543e2871208e753c5270eecd0f0a1f37bd349",
+      "references": [
+        {
+          "pc": 2,
+          "opcode": "0xb5",
+          "cp_index": 114,
+          "target": "bapColors[I"
+        },
+        {
+          "pc": 7,
+          "opcode": "0xb5",
+          "cp_index": 121,
+          "target": "defaultColorIndexI"
+        },
+        {
+          "pc": 12,
+          "opcode": "0xb5",
+          "cp_index": 120,
+          "target": "nrOfBapColorsI"
+        },
+        {
+          "pc": 18,
+          "opcode": "0xb6",
+          "cp_index": 74,
+          "target": "exists()Z"
+        },
+        {
+          "pc": 26,
+          "opcode": "0xb6",
+          "cp_index": 75,
+          "target": "getPath()Ljava/lang/String;"
+        },
+        {
+          "pc": 29,
+          "opcode": "0xb6",
+          "cp_index": 76,
+          "target": "readDataFromObjectSwapperFile(Ljava/lang/String;)[Ljava/lang/Object;"
+        },
+        {
+          "pc": 46,
+          "opcode": "0xc0",
+          "cp_index": 32,
+          "target": "[Ljava/lang/String;"
+        },
+        {
+          "pc": 49,
+          "opcode": "0xc0",
+          "cp_index": 32,
+          "target": "[Ljava/lang/String;"
+        },
+        {
+          "pc": 57,
+          "opcode": "0xc0",
+          "cp_index": 33,
+          "target": "[I"
+        },
+        {
+          "pc": 60,
+          "opcode": "0xc0",
+          "cp_index": 33,
+          "target": "[I"
+        },
+        {
+          "pc": 83,
+          "opcode": "0xb5",
+          "cp_index": 114,
+          "target": "bapColors[I"
+        },
+        {
+          "pc": 91,
+          "opcode": "0xb5",
+          "cp_index": 116,
+          "target": "displayColors[I"
+        },
+        {
+          "pc": 99,
+          "opcode": "0xb5",
+          "cp_index": 118,
+          "target": "srgbColors[I"
+        },
+        {
+          "pc": 107,
+          "opcode": "0xb5",
+          "cp_index": 117,
+          "target": "displayLedColors[I"
+        },
+        {
+          "pc": 179,
+          "opcode": "0xb4",
+          "cp_index": 65,
+          "target": "nrOfBapColorsI"
+        },
+        {
+          "pc": 186,
+          "opcode": "0xb4",
+          "cp_index": 59,
+          "target": "bapColors[I"
+        },
+        {
+          "pc": 226,
+          "opcode": "0xb7",
+          "cp_index": 95,
+          "target": "carIdsMatch(Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        {
+          "pc": 241,
+          "opcode": "0xb5",
+          "cp_index": 121,
+          "target": "defaultColorIndexI"
+        },
+        {
+          "pc": 245,
+          "opcode": "0xb4",
+          "cp_index": 59,
+          "target": "bapColors[I"
+        },
+        {
+          "pc": 254,
+          "opcode": "0xb4",
+          "cp_index": 61,
+          "target": "displayColors[I"
+        },
+        {
+          "pc": 263,
+          "opcode": "0xb4",
+          "cp_index": 63,
+          "target": "srgbColors[I"
+        },
+        {
+          "pc": 272,
+          "opcode": "0xb4",
+          "cp_index": 62,
+          "target": "displayLedColors[I"
+        },
+        {
+          "pc": 295,
+          "opcode": "0xb7",
+          "cp_index": 95,
+          "target": "carIdsMatch(Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        {
+          "pc": 309,
+          "opcode": "0xb4",
+          "cp_index": 65,
+          "target": "nrOfBapColorsI"
+        },
+        {
+          "pc": 312,
+          "opcode": "0xb5",
+          "cp_index": 121,
+          "target": "defaultColorIndexI"
+        },
+        {
+          "pc": 316,
+          "opcode": "0xb4",
+          "cp_index": 59,
+          "target": "bapColors[I"
+        },
+        {
+          "pc": 320,
+          "opcode": "0xb4",
+          "cp_index": 65,
+          "target": "nrOfBapColorsI"
+        },
+        {
+          "pc": 327,
+          "opcode": "0xb4",
+          "cp_index": 61,
+          "target": "displayColors[I"
+        },
+        {
+          "pc": 331,
+          "opcode": "0xb4",
+          "cp_index": 65,
+          "target": "nrOfBapColorsI"
+        },
+        {
+          "pc": 338,
+          "opcode": "0xb4",
+          "cp_index": 63,
+          "target": "srgbColors[I"
+        },
+        {
+          "pc": 342,
+          "opcode": "0xb4",
+          "cp_index": 65,
+          "target": "nrOfBapColorsI"
+        },
+        {
+          "pc": 349,
+          "opcode": "0xb4",
+          "cp_index": 62,
+          "target": "displayLedColors[I"
+        },
+        {
+          "pc": 353,
+          "opcode": "0xb4",
+          "cp_index": 65,
+          "target": "nrOfBapColorsI"
+        },
+        {
+          "pc": 361,
+          "opcode": "0xb4",
+          "cp_index": 65,
+          "target": "nrOfBapColorsI"
+        },
+        {
+          "pc": 366,
+          "opcode": "0xb5",
+          "cp_index": 120,
+          "target": "nrOfBapColorsI"
+        },
+        {
+          "pc": 377,
+          "opcode": "0xb5",
+          "cp_index": 96,
+          "target": "isSetEnabledZ"
+        },
+        {
+          "pc": 384,
+          "opcode": "0xb4",
+          "cp_index": 51,
+          "target": "loggerLde/vw/mib/log4mib/Logger;"
+        },
+        {
+          "pc": 390,
+          "opcode": "0xb9",
+          "cp_index": 133,
+          "target": "error(I)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 397,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 403,
+          "opcode": "0xb9",
+          "cp_index": 122,
+          "target": "append(Ljava/lang/Object;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 410,
+          "opcode": "0xb9",
+          "cp_index": 110,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 415,
+          "opcode": "0xb9",
+          "cp_index": 112,
+          "target": "log()V"
+        },
+        {
+          "pc": 422,
+          "opcode": "0xb5",
+          "cp_index": 114,
+          "target": "bapColors[I"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/view/internal/ViewCompositorImpl$SkinInformationHandler",
+      "class_offset": 29371492,
+      "method": "receiveAmbientColor",
+      "descriptor": "(I)V",
+      "method_offset": 29372236,
+      "code_sha256": "793000f906b51a6df3c55de608489c253490793fccd1ac22b57b66ceb75d1fad",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb7",
+          "cp_index": 15,
+          "target": "updateGlobalDynamicColor()V"
+        },
+        {
+          "pc": 5,
+          "opcode": "0xb7",
+          "cp_index": 16,
+          "target": "invalidate()V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/view/internal/ViewCompositorImpl$SkinInformationHandler",
+      "class_offset": 29371492,
+      "method": "receiveCurrentSkinMode",
+      "descriptor": "(I)V",
+      "method_offset": 29372300,
+      "code_sha256": "e958f4faa7f1859db4002c5fc8cfa4034b31bc2aa902a9b906c0b61201abf593",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb8",
+          "cp_index": 2,
+          "target": "setDayNightMode(I)V"
+        },
+        {
+          "pc": 5,
+          "opcode": "0xb7",
+          "cp_index": 16,
+          "target": "invalidate()V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/view/internal/ViewCompositorImpl$SkinInformationHandler",
+      "class_offset": 29371492,
+      "method": "updateGlobalDynamicColor",
+      "descriptor": "()V",
+      "method_offset": 29372376,
+      "code_sha256": "dfad379afcd39bee2a42e38d9f099526b514e3234a50ba3640a49f72b7fdf6df",
+      "references": [
+        {
+          "pc": 0,
+          "opcode": "0xb2",
+          "cp_index": 1,
+          "target": "skinInformationServiceLde/vw/mib/configuration/SkinInformationService;"
+        },
+        {
+          "pc": 5,
+          "opcode": "0xb9",
+          "cp_index": 23,
+          "target": "isAmbientColorEnabled()Z"
+        },
+        {
+          "pc": 13,
+          "opcode": "0xb2",
+          "cp_index": 1,
+          "target": "skinInformationServiceLde/vw/mib/configuration/SkinInformationService;"
+        },
+        {
+          "pc": 18,
+          "opcode": "0xb9",
+          "cp_index": 24,
+          "target": "getAmbientColor()I"
+        },
+        {
+          "pc": 23,
+          "opcode": "0xbb",
+          "cp_index": 25,
+          "target": "de/vw/mib/graphics/Color4b"
+        },
+        {
+          "pc": 28,
+          "opcode": "0xb7",
+          "cp_index": 17,
+          "target": "<init>(I)V"
+        },
+        {
+          "pc": 31,
+          "opcode": "0xb8",
+          "cp_index": 6,
+          "target": "setGlobalDynamicColor(Lde/vw/mib/graphics/Color4b;)V"
+        },
+        {
+          "pc": 38,
+          "opcode": "0xb8",
+          "cp_index": 6,
+          "target": "setGlobalDynamicColor(Lde/vw/mib/graphics/Color4b;)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/skin/internal/SkinImagePoolImpl",
+      "class_offset": 29084156,
+      "method": "createImage",
+      "descriptor": "(I)Lde/vw/mib/graphics/image/Image;",
+      "method_offset": 29086940,
+      "code_sha256": "e0885a712b3bea415d838314374fa0a221fadbb3cbfed9a256810afb13e00d3c",
+      "references": [
+        {
+          "pc": 11,
+          "opcode": "0xb7",
+          "cp_index": 43,
+          "target": "getScaleImage(IILjava/lang/String;)Lde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 22,
+          "opcode": "0xb7",
+          "cp_index": 43,
+          "target": "getScaleImage(IILjava/lang/String;)Lde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 27,
+          "opcode": "0xbb",
+          "cp_index": 60,
+          "target": "de/vw/mib/graphics/image/Image"
+        },
+        {
+          "pc": 34,
+          "opcode": "0xb7",
+          "cp_index": 44,
+          "target": "<init>(Lde/vw/mib/graphics/image/ScaleImage;Lde/vw/mib/graphics/image/ScaleImage;)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/skin/internal/SkinImagePoolImpl",
+      "class_offset": 29084156,
+      "method": "createScaleImage",
+      "descriptor": "(IILjava/lang/String;)Lde/vw/mib/graphics/image/ScaleImage;",
+      "method_offset": 29087056,
+      "code_sha256": "41510ee67d8b43da921ba9f9e2843ebdffc7a315bc51e4253a4448a5e12a0b15",
+      "references": [
+        {
+          "pc": 6,
+          "opcode": "0xb4",
+          "cp_index": 33,
+          "target": "scaleImageData[I"
+        },
+        {
+          "pc": 27,
+          "opcode": "0xb7",
+          "cp_index": 46,
+          "target": "logImageLoadingWarning(ILjava/lang/String;Ljava/lang/String;)V"
+        },
+        {
+          "pc": 30,
+          "opcode": "0xb2",
+          "cp_index": 8,
+          "target": "NULL_SCALEIMAGELde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 38,
+          "opcode": "0xb4",
+          "cp_index": 32,
+          "target": "supportsSecondScaleImageBitmapZ"
+        },
+        {
+          "pc": 45,
+          "opcode": "0xb4",
+          "cp_index": 33,
+          "target": "scaleImageData[I"
+        },
+        {
+          "pc": 54,
+          "opcode": "0xb4",
+          "cp_index": 33,
+          "target": "scaleImageData[I"
+        },
+        {
+          "pc": 68,
+          "opcode": "0xb4",
+          "cp_index": 33,
+          "target": "scaleImageData[I"
+        },
+        {
+          "pc": 79,
+          "opcode": "0xb4",
+          "cp_index": 28,
+          "target": "insetsCache[Lde/vw/mib/graphics/Insets;"
+        },
+        {
+          "pc": 88,
+          "opcode": "0xb4",
+          "cp_index": 33,
+          "target": "scaleImageData[I"
+        },
+        {
+          "pc": 98,
+          "opcode": "0xbb",
+          "cp_index": 61,
+          "target": "de/vw/mib/graphics/image/ScaleImage"
+        },
+        {
+          "pc": 110,
+          "opcode": "0xb7",
+          "cp_index": 48,
+          "target": "<init>(IILde/vw/mib/graphics/Insets;I)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/skin/internal/SkinImagePoolImpl",
+      "class_offset": 29084156,
+      "method": "supportsSecondScaleImageBitmap",
+      "descriptor": "([I[I)Z",
+      "method_offset": 29087400,
+      "code_sha256": "e8c6ea26276b59ced9e1d5aa1179dc21291f709863257764228721e661ac12c4",
+      "references": []
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/Image",
+      "class_offset": 27661812,
+      "method": "<init>",
+      "descriptor": "()V",
+      "method_offset": 27662820,
+      "code_sha256": "0c9c85e1dfb311560530ad5a3d5930e56ff9e5727ed6a9e9ba9f31e86baa83a0",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xbb",
+          "cp_index": 41,
+          "target": "de/vw/mib/graphics/image/ScaleImage"
+        },
+        {
+          "pc": 5,
+          "opcode": "0xb7",
+          "cp_index": 29,
+          "target": "<init>()V"
+        },
+        {
+          "pc": 8,
+          "opcode": "0xb7",
+          "cp_index": 30,
+          "target": "<init>(Lde/vw/mib/graphics/image/ScaleImage;)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/Image",
+      "class_offset": 27661812,
+      "method": "<init>",
+      "descriptor": "(Lde/vw/mib/graphics/image/ScaleImage;)V",
+      "method_offset": 27662852,
+      "code_sha256": "1a9450305d9b3eb18a0f53e8b46f1cf787cb1ebf4026994131cd1bfc31d7c13d",
+      "references": [
+        {
+          "pc": 3,
+          "opcode": "0xb7",
+          "cp_index": 31,
+          "target": "<init>(Lde/vw/mib/graphics/image/ScaleImage;Lde/vw/mib/graphics/image/ScaleImage;)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/Image",
+      "class_offset": 27661812,
+      "method": "<init>",
+      "descriptor": "(Lde/vw/mib/graphics/image/ScaleImage;Lde/vw/mib/graphics/image/ScaleImage;)V",
+      "method_offset": 27662880,
+      "code_sha256": "fbe403b6341daac0ff00a10ca63733831b083bd529ebe669a9f886940d6d6ece",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb7",
+          "cp_index": 32,
+          "target": "<init>()V"
+        },
+        {
+          "pc": 6,
+          "opcode": "0xb5",
+          "cp_index": 42,
+          "target": "dayImageLde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 11,
+          "opcode": "0xb5",
+          "cp_index": 43,
+          "target": "nightImageLde/vw/mib/graphics/image/ScaleImage;"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/Image",
+      "class_offset": 27661812,
+      "method": "<init>",
+      "descriptor": "(Lde/vw/mib/graphics/image/Image;)V",
+      "method_offset": 27662916,
+      "code_sha256": "e96c09fc3ef568af7df0ff959ebae31ce3347fba5bd9d9fd1d1f924d776a0399",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb7",
+          "cp_index": 32,
+          "target": "<init>()V"
+        },
+        {
+          "pc": 6,
+          "opcode": "0xb4",
+          "cp_index": 16,
+          "target": "dayImageLde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 9,
+          "opcode": "0xb5",
+          "cp_index": 42,
+          "target": "dayImageLde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 14,
+          "opcode": "0xb4",
+          "cp_index": 17,
+          "target": "nightImageLde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 17,
+          "opcode": "0xb5",
+          "cp_index": 43,
+          "target": "nightImageLde/vw/mib/graphics/image/ScaleImage;"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/Image",
+      "class_offset": 27661812,
+      "method": "getCurrentImage",
+      "descriptor": "()Lde/vw/mib/graphics/image/ScaleImage;",
+      "method_offset": 27663340,
+      "code_sha256": "294cdfb792921f65b49a934bbc7699384416ef0735ccc1ff1bf5004ef4edc8f3",
+      "references": [
+        {
+          "pc": 0,
+          "opcode": "0xb2",
+          "cp_index": 11,
+          "target": "currentModeI"
+        },
+        {
+          "pc": 29,
+          "opcode": "0xb6",
+          "cp_index": 27,
+          "target": "getDayImage()Lde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 34,
+          "opcode": "0xb6",
+          "cp_index": 28,
+          "target": "getNightImage()Lde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 38,
+          "opcode": "0xbb",
+          "cp_index": 47,
+          "target": "java/lang/IllegalArgumentException"
+        },
+        {
+          "pc": 44,
+          "opcode": "0xb7",
+          "cp_index": 40,
+          "target": "<init>(Ljava/lang/String;)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "()V",
+      "method_offset": 27673636,
+      "code_sha256": "f4fa0e57f3b3016c6188f98d4fe75f55864c3c482801b43058eeeed4063c0eef",
+      "references": [
+        {
+          "pc": 4,
+          "opcode": "0xbb",
+          "cp_index": 58,
+          "target": "de/vw/mib/graphics/Insets"
+        },
+        {
+          "pc": 8,
+          "opcode": "0xb7",
+          "cp_index": 46,
+          "target": "<init>()V"
+        },
+        {
+          "pc": 13,
+          "opcode": "0xb7",
+          "cp_index": 47,
+          "target": "<init>(Ljava/lang/String;ILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(Ljava/lang/String;Lde/vw/mib/graphics/Insets;I)V",
+      "method_offset": 27673676,
+      "code_sha256": "13a1c76e7fb972dbda3ec13b110161650fb8cca542e396d8f778f285c617c97d",
+      "references": [
+        {
+          "pc": 5,
+          "opcode": "0xb7",
+          "cp_index": 48,
+          "target": "<init>(Ljava/lang/String;Lde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(Ljava/lang/String;Lde/vw/mib/graphics/Insets;II)V",
+      "method_offset": 27673708,
+      "code_sha256": "6db0faf1c54a74f2bb4f8b48bbf05fd5cc21cfbd829a5e1ab314840aabe8f6b6",
+      "references": [
+        {
+          "pc": 7,
+          "opcode": "0xb7",
+          "cp_index": 47,
+          "target": "<init>(Ljava/lang/String;ILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(ILde/vw/mib/graphics/Insets;I)V",
+      "method_offset": 27673740,
+      "code_sha256": "4395ec93543f1f192017eb93d22883baeaad501316ea362d4a83a8b547c21e7d",
+      "references": [
+        {
+          "pc": 5,
+          "opcode": "0xb7",
+          "cp_index": 49,
+          "target": "<init>(ILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(ILde/vw/mib/graphics/Insets;II)V",
+      "method_offset": 27673772,
+      "code_sha256": "4ef99ec0cc4a23b07539c686efb4c308ebac5bcea6eb3f9960316e9415c9b76c",
+      "references": [
+        {
+          "pc": 8,
+          "opcode": "0xb7",
+          "cp_index": 47,
+          "target": "<init>(Ljava/lang/String;ILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(Ljava/lang/String;ILde/vw/mib/graphics/Insets;II)V",
+      "method_offset": 27673804,
+      "code_sha256": "4b993df07438dc398f8ddf64ca3c35f00fc732977d748ab2bcf21f4701e9077b",
+      "references": [
+        {
+          "pc": 11,
+          "opcode": "0xb7",
+          "cp_index": 50,
+          "target": "<init>(Ljava/lang/String;Ljava/lang/String;IILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(Ljava/lang/String;ILde/vw/mib/graphics/Insets;I)V",
+      "method_offset": 27673840,
+      "code_sha256": "72ca9c54a07c0fd0d11c69720aacf829375f131201bed368baeecef963cf1b87",
+      "references": [
+        {
+          "pc": 10,
+          "opcode": "0xb7",
+          "cp_index": 50,
+          "target": "<init>(Ljava/lang/String;Ljava/lang/String;IILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;Lde/vw/mib/graphics/Insets;II)V",
+      "method_offset": 27673876,
+      "code_sha256": "152ac2b9a7fe111c6323930e923a962c0bf926a9c0b81e7ab6fad65a6969be30",
+      "references": [
+        {
+          "pc": 10,
+          "opcode": "0xb7",
+          "cp_index": 50,
+          "target": "<init>(Ljava/lang/String;Ljava/lang/String;IILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(IILde/vw/mib/graphics/Insets;I)V",
+      "method_offset": 27673912,
+      "code_sha256": "9b8878aaa17dac542172f0156125efe7c6aaaa23e32041d6040c72cdb7fbaec6",
+      "references": [
+        {
+          "pc": 11,
+          "opcode": "0xb7",
+          "cp_index": 50,
+          "target": "<init>(Ljava/lang/String;Ljava/lang/String;IILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(IILde/vw/mib/graphics/Insets;II)V",
+      "method_offset": 27673948,
+      "code_sha256": "06bc56731e1c52377ec09f40031924cd0decf8f58ce4aaf919c7d3b743dd1e89",
+      "references": [
+        {
+          "pc": 12,
+          "opcode": "0xb7",
+          "cp_index": 50,
+          "target": "<init>(Ljava/lang/String;Ljava/lang/String;IILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;IILde/vw/mib/graphics/Insets;I)V",
+      "method_offset": 27673984,
+      "code_sha256": "583ede4a7ecc1d64f24fca8b8d4c4fd072dc91ff0e7754dcd0dfc0d56668a537",
+      "references": [
+        {
+          "pc": 11,
+          "opcode": "0xb7",
+          "cp_index": 50,
+          "target": "<init>(Ljava/lang/String;Ljava/lang/String;IILde/vw/mib/graphics/Insets;II)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;IILde/vw/mib/graphics/Insets;II)V",
+      "method_offset": 27674020,
+      "code_sha256": "1975bce0f0b1ad65774b6cc94e00bbc923e181ee63324624bd5b27a5deda3346",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb7",
+          "cp_index": 51,
+          "target": "<init>()V"
+        },
+        {
+          "pc": 6,
+          "opcode": "0xb5",
+          "cp_index": 59,
+          "target": "fileIdentifierLjava/lang/String;"
+        },
+        {
+          "pc": 11,
+          "opcode": "0xb5",
+          "cp_index": 60,
+          "target": "fileIdentifier2Ljava/lang/String;"
+        },
+        {
+          "pc": 16,
+          "opcode": "0xb5",
+          "cp_index": 61,
+          "target": "imageIdI"
+        },
+        {
+          "pc": 22,
+          "opcode": "0xb5",
+          "cp_index": 62,
+          "target": "imageId2I"
+        },
+        {
+          "pc": 28,
+          "opcode": "0xb5",
+          "cp_index": 63,
+          "target": "insetsLde/vw/mib/graphics/Insets;"
+        },
+        {
+          "pc": 35,
+          "opcode": "0xb5",
+          "cp_index": 64,
+          "target": "scaleModeB"
+        },
+        {
+          "pc": 42,
+          "opcode": "0xb5",
+          "cp_index": 65,
+          "target": "imageTypeB"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "getImageId",
+      "descriptor": "()I",
+      "method_offset": 27674772,
+      "code_sha256": "2b82a360100a625215c172aa3a0866f89e8d4bf9a8d33fb39ecf822e29fa98fc",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb4",
+          "cp_index": 23,
+          "target": "imageIdI"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/image/ScaleImage",
+      "class_offset": 27670980,
+      "method": "getImageId2",
+      "descriptor": "()I",
+      "method_offset": 27674800,
+      "code_sha256": "e7d820f4ad2cb919ab8fedb8bf0c6a1bbcbd0c0e3ffdd83bd9d335f838106ef3",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb4",
+          "cp_index": 24,
+          "target": "imageId2I"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/Color",
+      "class_offset": 27460164,
+      "method": "mix",
+      "descriptor": "(Lde/vw/mib/graphics/Color4b;Lde/vw/mib/graphics/Color4b;)Lde/vw/mib/graphics/Color4b;",
+      "method_offset": 27463152,
+      "code_sha256": "30288b6722fad8f6bdf6686a72da60c8b8d7587f6e1a5067a2fbb71c0b1e4b6e",
+      "references": [
+        {
+          "pc": 0,
+          "opcode": "0xbb",
+          "cp_index": 87,
+          "target": "de/vw/mib/graphics/Color4b"
+        },
+        {
+          "pc": 5,
+          "opcode": "0xb6",
+          "cp_index": 40,
+          "target": "getRed()I"
+        },
+        {
+          "pc": 9,
+          "opcode": "0xb6",
+          "cp_index": 40,
+          "target": "getRed()I"
+        },
+        {
+          "pc": 18,
+          "opcode": "0xb6",
+          "cp_index": 41,
+          "target": "getGreen()I"
+        },
+        {
+          "pc": 22,
+          "opcode": "0xb6",
+          "cp_index": 41,
+          "target": "getGreen()I"
+        },
+        {
+          "pc": 31,
+          "opcode": "0xb6",
+          "cp_index": 42,
+          "target": "getBlue()I"
+        },
+        {
+          "pc": 35,
+          "opcode": "0xb6",
+          "cp_index": 42,
+          "target": "getBlue()I"
+        },
+        {
+          "pc": 44,
+          "opcode": "0xb6",
+          "cp_index": 43,
+          "target": "getAlpha()I"
+        },
+        {
+          "pc": 48,
+          "opcode": "0xb6",
+          "cp_index": 43,
+          "target": "getAlpha()I"
+        },
+        {
+          "pc": 56,
+          "opcode": "0xb7",
+          "cp_index": 66,
+          "target": "<init>(IIII)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/Color",
+      "class_offset": 27460164,
+      "method": "getCurrentColor",
+      "descriptor": "()Lde/vw/mib/graphics/Color4b;",
+      "method_offset": 27463232,
+      "code_sha256": "d890312c588c4fc515b94ef99069966f88a2200992021fdd0703293bf4044188",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb6",
+          "cp_index": 44,
+          "target": "isDynamic()Z"
+        },
+        {
+          "pc": 7,
+          "opcode": "0xb2",
+          "cp_index": 6,
+          "target": "globalDynamicColorLde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 13,
+          "opcode": "0xb2",
+          "cp_index": 7,
+          "target": "currentModeI"
+        },
+        {
+          "pc": 44,
+          "opcode": "0xb2",
+          "cp_index": 6,
+          "target": "globalDynamicColorLde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 48,
+          "opcode": "0xb6",
+          "cp_index": 45,
+          "target": "getDynamicDayColor()Lde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 51,
+          "opcode": "0xb8",
+          "cp_index": 8,
+          "target": "mix(Lde/vw/mib/graphics/Color4b;Lde/vw/mib/graphics/Color4b;)Lde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 55,
+          "opcode": "0xb2",
+          "cp_index": 6,
+          "target": "globalDynamicColorLde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 59,
+          "opcode": "0xb6",
+          "cp_index": 46,
+          "target": "getDynamicNightColor()Lde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 62,
+          "opcode": "0xb8",
+          "cp_index": 8,
+          "target": "mix(Lde/vw/mib/graphics/Color4b;Lde/vw/mib/graphics/Color4b;)Lde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 66,
+          "opcode": "0xbb",
+          "cp_index": 95,
+          "target": "java/lang/IllegalArgumentException"
+        },
+        {
+          "pc": 72,
+          "opcode": "0xb7",
+          "cp_index": 69,
+          "target": "<init>(Ljava/lang/String;)V"
+        },
+        {
+          "pc": 76,
+          "opcode": "0xb2",
+          "cp_index": 7,
+          "target": "currentModeI"
+        },
+        {
+          "pc": 105,
+          "opcode": "0xb6",
+          "cp_index": 47,
+          "target": "getDayColor()Lde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 110,
+          "opcode": "0xb6",
+          "cp_index": 48,
+          "target": "getNightColor()Lde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 114,
+          "opcode": "0xbb",
+          "cp_index": 95,
+          "target": "java/lang/IllegalArgumentException"
+        },
+        {
+          "pc": 120,
+          "opcode": "0xb7",
+          "cp_index": 69,
+          "target": "<init>(Ljava/lang/String;)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/widgets/ui/AbstractWidgetUI",
+      "class_offset": 30943236,
+      "method": "updateScaleImageDrawable",
+      "descriptor": "(Lde/vw/mib/graphics/Graphics3D;Lde/vw/mib/widgets/models/WidgetModel;Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;Lde/vw/mib/graphics/image/Image;)Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;",
+      "method_offset": 30951340,
+      "code_sha256": "6b17f43e9aa900f6a19c98de16e05416610934b539ce06cde91df412c63e46b5",
+      "references": [
+        {
+          "pc": 5,
+          "opcode": "0xb8",
+          "cp_index": 17,
+          "target": "updateScaleImageDrawable(Lde/vw/mib/graphics/Graphics3D;Lde/vw/mib/widgets/models/WidgetModel;Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;Lde/vw/mib/graphics/image/Image;Z)Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/widgets/ui/AbstractWidgetUI",
+      "class_offset": 30943236,
+      "method": "updateScaleImageDrawable",
+      "descriptor": "(Lde/vw/mib/graphics/Graphics3D;Lde/vw/mib/widgets/models/WidgetModel;Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;Lde/vw/mib/graphics/image/Image;Z)Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;",
+      "method_offset": 30951380,
+      "code_sha256": "58a488d8be5f445382036ee1f50d1b909a8c9a56e5e89d1246942fbad41ac778",
+      "references": [
+        {
+          "pc": 8,
+          "opcode": "0xb8",
+          "cp_index": 18,
+          "target": "updateScaleImageDrawable(Lde/vw/mib/graphics/Graphics3D;Lde/vw/mib/widgets/models/WidgetModel;Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;Lde/vw/mib/graphics/image/Image;IIZ)Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/widgets/ui/AbstractWidgetUI",
+      "class_offset": 30943236,
+      "method": "updateScaleImageDrawable",
+      "descriptor": "(Lde/vw/mib/graphics/Graphics3D;Lde/vw/mib/widgets/models/WidgetModel;Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;Lde/vw/mib/graphics/image/Image;II)Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;",
+      "method_offset": 30951420,
+      "code_sha256": "b564a6d8b33b89e8d64852b1b09a61190b4a12f42516196bf6509cbbccc8f973",
+      "references": [
+        {
+          "pc": 9,
+          "opcode": "0xb8",
+          "cp_index": 18,
+          "target": "updateScaleImageDrawable(Lde/vw/mib/graphics/Graphics3D;Lde/vw/mib/widgets/models/WidgetModel;Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;Lde/vw/mib/graphics/image/Image;IIZ)Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/widgets/ui/AbstractWidgetUI",
+      "class_offset": 30943236,
+      "method": "updateScaleImageDrawable",
+      "descriptor": "(Lde/vw/mib/graphics/Graphics3D;Lde/vw/mib/widgets/models/WidgetModel;Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;Lde/vw/mib/graphics/image/Image;IIZ)Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;",
+      "method_offset": 30951464,
+      "code_sha256": "8a5944e4278fa6da031104448ee7f2901831747a09549780bbef713716cb51af",
+      "references": [
+        {
+          "pc": 3,
+          "opcode": "0xb9",
+          "cp_index": 149,
+          "target": "isInvalid()Z"
+        },
+        {
+          "pc": 22,
+          "opcode": "0xb6",
+          "cp_index": 83,
+          "target": "getCurrentImage()Lde/vw/mib/graphics/image/ScaleImage;"
+        },
+        {
+          "pc": 34,
+          "opcode": "0xb6",
+          "cp_index": 84,
+          "target": "isEmpty()Z"
+        },
+        {
+          "pc": 47,
+          "opcode": "0xb9",
+          "cp_index": 117,
+          "target": "getDrawableManager()Lde/vw/mib/graphics/drawable/DrawableManager;"
+        },
+        {
+          "pc": 52,
+          "opcode": "0xb9",
+          "cp_index": 156,
+          "target": "createScaleImageDrawable()Lde/vw/mib/graphics/drawable/image/ScaleImageDrawable;"
+        },
+        {
+          "pc": 56,
+          "opcode": "0xb2",
+          "cp_index": 19,
+          "target": "imageManagerLde/vw/mib/graphics/image/ImageManager;"
+        },
+        {
+          "pc": 63,
+          "opcode": "0xb9",
+          "cp_index": 157,
+          "target": "getImageFromCurrentSkin(Lde/vw/mib/graphics/image/ScaleImage;)Lde/vw/mib/graphics/image/BufferImage;"
+        },
+        {
+          "pc": 74,
+          "opcode": "0xb9",
+          "cp_index": 158,
+          "target": "setImage(ILde/vw/mib/graphics/image/BufferImage;)V"
+        },
+        {
+          "pc": 82,
+          "opcode": "0xb6",
+          "cp_index": 85,
+          "target": "hasSecondaryLayer()Z"
+        },
+        {
+          "pc": 88,
+          "opcode": "0xb2",
+          "cp_index": 19,
+          "target": "imageManagerLde/vw/mib/graphics/image/ImageManager;"
+        },
+        {
+          "pc": 95,
+          "opcode": "0xb9",
+          "cp_index": 159,
+          "target": "getSecondaryImageFromCurrentSkin(Lde/vw/mib/graphics/image/ScaleImage;)Lde/vw/mib/graphics/image/BufferImage;"
+        },
+        {
+          "pc": 102,
+          "opcode": "0xb6",
+          "cp_index": 81,
+          "target": "getWidth()I"
+        },
+        {
+          "pc": 107,
+          "opcode": "0xb6",
+          "cp_index": 81,
+          "target": "getWidth()I"
+        },
+        {
+          "pc": 115,
+          "opcode": "0xb6",
+          "cp_index": 82,
+          "target": "getHeight()I"
+        },
+        {
+          "pc": 120,
+          "opcode": "0xb6",
+          "cp_index": 82,
+          "target": "getHeight()I"
+        },
+        {
+          "pc": 128,
+          "opcode": "0xb6",
+          "cp_index": 86,
+          "target": "getImageFormat()I"
+        },
+        {
+          "pc": 133,
+          "opcode": "0xb6",
+          "cp_index": 86,
+          "target": "getImageFormat()I"
+        },
+        {
+          "pc": 142,
+          "opcode": "0xb2",
+          "cp_index": 9,
+          "target": "LOGGERLde/vw/mib/log4mib/Logger;"
+        },
+        {
+          "pc": 148,
+          "opcode": "0xb9",
+          "cp_index": 160,
+          "target": "warn(I)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 158,
+          "opcode": "0xb9",
+          "cp_index": 135,
+          "target": "append(Ljava/lang/Object;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 165,
+          "opcode": "0xb9",
+          "cp_index": 134,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 172,
+          "opcode": "0xb9",
+          "cp_index": 135,
+          "target": "append(Ljava/lang/Object;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 179,
+          "opcode": "0xb9",
+          "cp_index": 134,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 186,
+          "opcode": "0xb9",
+          "cp_index": 135,
+          "target": "append(Ljava/lang/Object;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 193,
+          "opcode": "0xb9",
+          "cp_index": 134,
+          "target": "append(Ljava/lang/String;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 200,
+          "opcode": "0xb9",
+          "cp_index": 135,
+          "target": "append(Ljava/lang/Object;)Lde/vw/mib/log4mib/LogMessage;"
+        },
+        {
+          "pc": 205,
+          "opcode": "0xb9",
+          "cp_index": 136,
+          "target": "log()V"
+        },
+        {
+          "pc": 214,
+          "opcode": "0xb9",
+          "cp_index": 158,
+          "target": "setImage(ILde/vw/mib/graphics/image/BufferImage;)V"
+        },
+        {
+          "pc": 230,
+          "opcode": "0xb9",
+          "cp_index": 161,
+          "target": "setImageFilter(I)V"
+        },
+        {
+          "pc": 238,
+          "opcode": "0xb9",
+          "cp_index": 162,
+          "target": "setScaleImage(Lde/vw/mib/graphics/image/ScaleImage;)V"
+        },
+        {
+          "pc": 254,
+          "opcode": "0xb6",
+          "cp_index": 81,
+          "target": "getWidth()I"
+        },
+        {
+          "pc": 259,
+          "opcode": "0xb9",
+          "cp_index": 163,
+          "target": "setWidth(I)V"
+        },
+        {
+          "pc": 275,
+          "opcode": "0xb6",
+          "cp_index": 82,
+          "target": "getHeight()I"
+        },
+        {
+          "pc": 280,
+          "opcode": "0xb9",
+          "cp_index": 164,
+          "target": "setHeight(I)V"
+        },
+        {
+          "pc": 293,
+          "opcode": "0xb9",
+          "cp_index": 165,
+          "target": "dispose()V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/widgets/ui/AbstractImageUI",
+      "class_offset": 30917476,
+      "method": "paint",
+      "descriptor": "(Lde/vw/mib/graphics/Graphics3D;Lde/vw/mib/widgets/models/ViewModel;Lde/vw/mib/widgets/models/WidgetModel;Lde/vw/mib/graphics/Rectangle;Lde/vw/mib/graphics/Rectangle;F)V",
+      "method_offset": 30918084,
+      "code_sha256": "0747fbdef23fe4ec5c33b2a0d4a226e1aa15d25b6084119d7014b716edfef964",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xc0",
+          "cp_index": 1,
+          "target": "de/vw/mib/widgets/models/AbstractImageModel"
+        },
+        {
+          "pc": 10,
+          "opcode": "0xb9",
+          "cp_index": 11,
+          "target": "is_colorEnabled()Z"
+        },
+        {
+          "pc": 20,
+          "opcode": "0xb9",
+          "cp_index": 12,
+          "target": "get_color()Lde/vw/mib/graphics/Color;"
+        },
+        {
+          "pc": 26,
+          "opcode": "0xb2",
+          "cp_index": 2,
+          "target": "WHITELde/vw/mib/graphics/Color;"
+        },
+        {
+          "pc": 41,
+          "opcode": "0xb6",
+          "cp_index": 6,
+          "target": "getCurrentColor()Lde/vw/mib/graphics/Color4b;"
+        },
+        {
+          "pc": 46,
+          "opcode": "0xb6",
+          "cp_index": 7,
+          "target": "paintImage(Lde/vw/mib/graphics/Graphics3D;Lde/vw/mib/widgets/models/ViewModel;Lde/vw/mib/widgets/models/WidgetModel;Lde/vw/mib/graphics/Rectangle;Lde/vw/mib/graphics/Rectangle;Lde/vw/mib/graphics/Color4b;F)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/widgets/Scrollbar",
+      "class_offset": 30004972,
+      "method": "updateScrollbarImage",
+      "descriptor": "()V",
+      "method_offset": 30014128,
+      "code_sha256": "41bab4f0a53874f76aa12369794ad07cbcc86508202d7a926c30be3ccb6b9d47",
+      "references": [
+        {
+          "pc": 1,
+          "opcode": "0xb7",
+          "cp_index": 135,
+          "target": "get_imageScrollbarRef()Lde/vw/mib/widgets/models/StaticImageModel;"
+        },
+        {
+          "pc": 10,
+          "opcode": "0xb7",
+          "cp_index": 148,
+          "target": "get_imagesScrollbar()[Lde/vw/mib/graphics/image/Image;"
+        },
+        {
+          "pc": 15,
+          "opcode": "0xb6",
+          "cp_index": 97,
+          "target": "inferIndexFromState()I"
+        },
+        {
+          "pc": 39,
+          "opcode": "0xb9",
+          "cp_index": 178,
+          "target": "set_image(Lde/vw/mib/graphics/image/Image;)V"
+        },
+        {
+          "pc": 49,
+          "opcode": "0xb9",
+          "cp_index": 178,
+          "target": "set_image(Lde/vw/mib/graphics/image/Image;)V"
+        },
+        {
+          "pc": 53,
+          "opcode": "0xb4",
+          "cp_index": 49,
+          "target": "colorsScrollbar[Lde/vw/mib/graphics/Color;"
+        },
+        {
+          "pc": 60,
+          "opcode": "0xb4",
+          "cp_index": 49,
+          "target": "colorsScrollbar[Lde/vw/mib/graphics/Color;"
+        },
+        {
+          "pc": 70,
+          "opcode": "0xb4",
+          "cp_index": 49,
+          "target": "colorsScrollbar[Lde/vw/mib/graphics/Color;"
+        },
+        {
+          "pc": 77,
+          "opcode": "0xb9",
+          "cp_index": 179,
+          "target": "set_color(Lde/vw/mib/graphics/Color;)V"
+        },
+        {
+          "pc": 84,
+          "opcode": "0xb2",
+          "cp_index": 20,
+          "target": "WHITELde/vw/mib/graphics/Color;"
+        },
+        {
+          "pc": 89,
+          "opcode": "0xb9",
+          "cp_index": 179,
+          "target": "set_color(Lde/vw/mib/graphics/Color;)V"
+        }
+      ]
+    },
+    {
+      "class_name": "de/vw/mib/graphics/internal/drawable/renderer/image/ImageDrawableRenderer$SharedImageDrawable",
+      "class_offset": 27800956,
+      "method": "<init>",
+      "descriptor": "(Lde/vw/mib/graphics/internal/drawable/renderer/AbstractSharedDrawableRenderer;Lde/vw/mib/pool/ObjectPool;)V",
+      "method_offset": 27802004,
+      "code_sha256": "d3c661260364a8a0e13c2ba3b26be986fcd7e631758b03f0589315e093d158d8",
+      "references": [
+        {
+          "pc": 3,
+          "opcode": "0xb7",
+          "cp_index": 37,
+          "target": "<init>(Lde/vw/mib/graphics/internal/drawable/renderer/AbstractSharedDrawableRenderer;Lde/vw/mib/pool/ObjectPool;)V"
+        },
+        {
+          "pc": 8,
+          "opcode": "0xb5",
+          "cp_index": 45,
+          "target": "imageBlendingI"
+        },
+        {
+          "pc": 12,
+          "opcode": "0xbb",
+          "cp_index": 46,
+          "target": "de/vw/mib/graphics/Color4f"
+        },
+        {
+          "pc": 16,
+          "opcode": "0xb2",
+          "cp_index": 2,
+          "target": "DEFAULT_IMAGE_BLENDING_COLORLde/vw/mib/graphics/Color4f;"
+        },
+        {
+          "pc": 19,
+          "opcode": "0xb7",
+          "cp_index": 39,
+          "target": "<init>(Lde/vw/mib/graphics/math/Tuple4f;)V"
+        },
+        {
+          "pc": 22,
+          "opcode": "0xb5",
+          "cp_index": 47,
+          "target": "imageBlendingColorLde/vw/mib/graphics/Color4f;"
+        }
+      ]
+    }
+  ],
+  "shaders": [
+    {
+      "path": "de/vw/mib/graphics/internal/shader/fragment/image/composition/ImageComposition.glslf",
+      "sha256": "82e1de0a19d1689a2181175cc8a8906b6a02cacc20776bf16d5d7a43604d1181",
+      "bytes": 1918
+    },
+    {
+      "path": "de/vw/mib/graphics/internal/shader/fragment/image/composition/TextureCombine_RGBA_Modulate.glslf",
+      "sha256": "d055382cdebffd991d112b0f2ec2a66609aa709b40ec7e600f088a15a7207884",
+      "bytes": 160
+    }
+  ],
+  "findings": [
+    "two array halves are primary/secondary bitmap layers, not day/night banks",
+    "logical image creates day and night ScaleImage entries; pairs match on exact input",
+    "secondary bitmap is sampled separately and tinted by v_color.rgb before alpha-over primary",
+    "dynamic Color.mix multiplies channels and divides by 255",
+    "Scrollbar.updateScrollbarImage assigns state-selected images and colors; white foreground mask must remain uncolored"
+  ]
+}

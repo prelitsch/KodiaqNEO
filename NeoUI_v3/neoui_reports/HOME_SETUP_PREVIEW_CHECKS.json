@@ -1,0 +1,14 @@
+{
+  "image_references": 34,
+  "all_exist": true,
+  "min_sample_text_contrast": {
+    "white": 5.77,
+    "blue": 12.84,
+    "ice": 7.28,
+    "red": 13.15
+  },
+  "note": "component samples only; no head-unit runtime claims",
+  "browser_ui_validation": "blocked: browser URL policy disallows file://; no alternative browser/server workaround attempted",
+  "visual_validation": "native before/after PNGs inspected",
+  "javascript_syntax": "node --check passed"
+}

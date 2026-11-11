@@ -1,0 +1,19 @@
+{
+  "status": "PASS offline",
+  "changed_records": 46,
+  "new_records": 26,
+  "all_crcs": true,
+  "unchanged_records_exact": true,
+  "dimensions_alpha_transparent_rgb_exact": true,
+  "chromatic_icon_pixels_preserved": 1569,
+  "protected_menu_foundation_records": 106,
+  "navigation_non_controlbar_records_exact": 288,
+  "independent_restore_exact": true,
+  "local_links_checked": 70,
+  "state_slot_images_checked": 36,
+  "script_syntax": true,
+  "state_selector_18_slots": true,
+  "native_png_inspection": "normal and pressed navigation, paging arrows, button states and decorative road inspected",
+  "browser_visual_qa": "not performed; local-file URL policy blocks browser access; no bypass attempted",
+  "vehicle_tested": false
+}

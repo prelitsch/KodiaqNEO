@@ -1,0 +1,1178 @@
+{
+  "status": "OFFLINE PARTIAL CANDIDATE; not vehicle-tested; no installer",
+  "firmware": "MHI2_ER_SKG13_P4526",
+  "mu": "MU1440",
+  "strategy": "existing skin3 fallback",
+  "source_sha1": "641c34e42ed5843c1795bf860fd4cb7bbb913fdb",
+  "source_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+  "images_res_sha256": "8d491108101560fcb0f1eca3eff7b46c023a30b0b970c37ba2d4cd831d71e0d1",
+  "candidate_sha1": "44481f3c5b91543799c11c4c6b665c7dd26a1e64",
+  "candidate_sha256": "e4f850f5cd71e09083ffa3e7650bad03e02e82a2fadc40a19fd2f5347a434be7",
+  "record_count": 2345,
+  "changed_record_count": 20,
+  "new_home_setup_records": [
+    19,
+    84,
+    2126,
+    2127
+  ],
+  "menu_and_controlbar_protected_records": [
+    2,
+    6,
+    360,
+    821,
+    822,
+    823,
+    978,
+    979,
+    980,
+    981,
+    982,
+    983,
+    984,
+    985,
+    986,
+    987,
+    988,
+    989,
+    990,
+    991,
+    992,
+    993,
+    994,
+    995,
+    996,
+    997,
+    998,
+    999,
+    1005,
+    1006,
+    1007,
+    1008,
+    1010,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1034,
+    1035,
+    1036,
+    1037,
+    1038,
+    1039,
+    1040,
+    1041,
+    1042,
+    1043,
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1050,
+    1051,
+    1052,
+    1053,
+    1054,
+    1055,
+    1056,
+    1057,
+    1058,
+    1059,
+    1060,
+    1061,
+    1163,
+    1164,
+    1165,
+    1166,
+    1167,
+    1168,
+    1169,
+    1170,
+    1171,
+    1172,
+    1173,
+    1174,
+    1494,
+    1495,
+    1496,
+    1497,
+    1498,
+    1499,
+    1500,
+    1501,
+    1502,
+    1503,
+    1504,
+    1505,
+    1506,
+    1507,
+    1628,
+    1629,
+    1630,
+    1631,
+    1632,
+    1633,
+    1634,
+    1707,
+    1712,
+    1713,
+    1714,
+    1715,
+    1716,
+    1717,
+    1718,
+    1719,
+    1720,
+    1808,
+    1809,
+    1810,
+    1811,
+    1812,
+    1813,
+    1814,
+    1815,
+    1816,
+    1817,
+    1818,
+    1819,
+    1820,
+    1821,
+    1822,
+    1823,
+    1824,
+    1825,
+    1826,
+    1827,
+    1828,
+    1829,
+    1830,
+    1831,
+    1832,
+    1833,
+    1834,
+    1835,
+    1836,
+    1837,
+    1838,
+    1839,
+    1840,
+    1841,
+    1843,
+    1844,
+    1845,
+    1846,
+    1847,
+    1848,
+    1849,
+    1850,
+    1851,
+    1852,
+    1853,
+    1854,
+    1855,
+    1856,
+    1857,
+    1858,
+    1859,
+    1860,
+    1861,
+    1862,
+    1863,
+    1864,
+    1865,
+    1866,
+    1867,
+    1868,
+    1869,
+    1870,
+    1871,
+    1872,
+    1873,
+    1874,
+    1875,
+    1876,
+    1877,
+    1878,
+    1879,
+    1880,
+    2092,
+    2093,
+    2094,
+    2095,
+    2323,
+    2324,
+    2325,
+    2330,
+    2331,
+    2338,
+    2345
+  ],
+  "menu_and_controlbar_exact": true,
+  "scrollbar_foreground_83_exact": true,
+  "all_crcs_verified": true,
+  "entries": [
+    {
+      "before_png_sha256": "4fb7e1fc9f851a72e42953e6cba8bf36111cf03c3b900bcc8a3e2c6fa93f850a",
+      "after_png_sha256": "8c41ad9e1dc03a92105988ae3f5e43f04357a7ef10156211af5314d170a0d0a4",
+      "mcf_id": 1658,
+      "logical_id": 797,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_02_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "02_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 797,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_02_PNG",
+          "bank": 0,
+          "mcf_id": 1658,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "260aa2e324c87caf77adcaf2d593613edde94402510a6084022fd68f2ea3b5bc",
+      "new_record_sha256": "0c239c8e619ce4ec07f9d369a25902643b819fccff84fc09bf97809c78661f54",
+      "original_pixel_sha256": "ad08ea6991ece81614eab06f3989910c7770d3bc516c32e76ad15b5bc178a971",
+      "new_pixel_sha256": "f68746a02d87148177a2b76bf4f09a8412f70c71ff0798b431c57891decd3573",
+      "before": "neoui_previews\\verified_media\\1658_before.png",
+      "after": "neoui_previews\\verified_media\\1658_after.png"
+    },
+    {
+      "before_png_sha256": "f1f3427481dffe336c1794a2d5e2800ad1a72da673094c1ee0af73a67c4690d1",
+      "after_png_sha256": "5cd6c09155e7fbf16a9932c41539b8faa6e47db4e3aa7c01a59b820c09907ef5",
+      "mcf_id": 1646,
+      "logical_id": 798,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_04_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "04_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 798,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1646,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1874,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PAUSE_PAUSE_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1646,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "35fc4bacb4fe665d200c55744181349e012fe35eb3311d73191acdd2ea6348ab",
+      "new_record_sha256": "d47181ccb35a69366281eed94da31dfa18247807cd20fc430194c3892d7cb102",
+      "original_pixel_sha256": "1d4303193576c250bf4b637c051e02cc918ad6bbd01079b2137a2938e7ec1304",
+      "new_pixel_sha256": "3a5dfa60eefc2e20b8adfa7e8ecb59de0f5deef579ef6a200145a78efaab399a",
+      "before": "neoui_previews\\verified_media\\1646_before.png",
+      "after": "neoui_previews\\verified_media\\1646_after.png"
+    },
+    {
+      "before_png_sha256": "de27517e9e16e4254580cf5fc103ebe469b427c4eac6a87616a3d07b9f12ccc4",
+      "after_png_sha256": "5dc868828de5ae2de03d72ebbfde870305e505753889cdca6a5ac831db0eee4f",
+      "mcf_id": 1645,
+      "logical_id": 799,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_06_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "06_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 799,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1645,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1875,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PAUSE_PAUSE_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1645,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "0f43189a476ec5d21ab97205542d6d32beee8893bf0e7aec65a176e1b979aa3a",
+      "new_record_sha256": "3d259e51bc321502fdeda182ddcc719970b66aa2ae31fc106cc618f98000b09b",
+      "original_pixel_sha256": "4923540f976528e44a0e07c368dee3c18989d25d49acd27863f71fca07abd2fa",
+      "new_pixel_sha256": "0eb094e8d5dcf83a1432e52dd8ff57af3438a89166e1d72e8ae839d72ae02a12",
+      "before": "neoui_previews\\verified_media\\1645_before.png",
+      "after": "neoui_previews\\verified_media\\1645_after.png"
+    },
+    {
+      "before_png_sha256": "70028d96a4d9ddb9bde23a5ed8d108b1b179748f7c4d6ff30689e0ef5f4e04d7",
+      "after_png_sha256": "b22d8415f69bd39bb1695288593d96ef67a730ca0250d8c92dfa6eecf058b165",
+      "mcf_id": 1644,
+      "logical_id": 800,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_07_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "07_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 800,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1644,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1876,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PAUSE_PAUSE_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1644,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "27fe7916cc09240bfb5e7edfc6ab386de9580c047542a082579c636436876e06",
+      "new_record_sha256": "a259c131aab511cbefd3df894f7e6bef7dd9573efac5a11f637fcebf41317345",
+      "original_pixel_sha256": "68fdba2f3c1b097502178cbc93d143c526d033fbb5e5ea41253b260384e57800",
+      "new_pixel_sha256": "77eff83c2e89cec61232043c176bcdf9a66e74468427cdc2b3add9e90f9e0a5a",
+      "before": "neoui_previews\\verified_media\\1644_before.png",
+      "after": "neoui_previews\\verified_media\\1644_after.png"
+    },
+    {
+      "before_png_sha256": "e9e07ecd6f9bfdc5ae60527c0a5c537b0d803803b3effb0163f3afe271a4d21c",
+      "after_png_sha256": "3fee99eada34ed053088ac6036100738af6c44e989d7315d4d4d70f232808501",
+      "mcf_id": 1657,
+      "logical_id": 801,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_02_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "02_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 801,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_02_PNG",
+          "bank": 0,
+          "mcf_id": 1657,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "6fb22c02d6223cd4ef1fa9c954f5a403273dc324113471ab3e537ef4e16ec468",
+      "new_record_sha256": "4d296ce90d1237b16ad45d0b40b712c4fbf0f6cc092b02ba68f31af546a50e2d",
+      "original_pixel_sha256": "036265674ebfd1e9d70d249bc763319fa9a4cb3bef259ed30751ca01df5d0a2b",
+      "new_pixel_sha256": "11fc4c2612dbd13702e335796cced1834a63b1d6d2249d7bd7fe6382ee179c37",
+      "before": "neoui_previews\\verified_media\\1657_before.png",
+      "after": "neoui_previews\\verified_media\\1657_after.png"
+    },
+    {
+      "before_png_sha256": "75f9fcee51e76b9ad1d70ae0a9ba44f276935acf0b6cb5f22ea6daaaf309ae00",
+      "after_png_sha256": "a6c389ad747f211d96b8dfe6c4e6dcde771060e0846c9d1ca4e6a3881c6080c0",
+      "mcf_id": 1643,
+      "logical_id": 802,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_04_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "04_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 802,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1643,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1877,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PLAY_PLAY_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1643,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "fcb7193daf8f1a38edfcc7f92c141095ddacc4af856ee9b0ec2a70b35ff4cffa",
+      "new_record_sha256": "b8ca42837aad83beab068db3fb8116cd89157a7874073d84e0744be5ddeb0a0a",
+      "original_pixel_sha256": "363ef5a517a5fc0deeb2579fac4028b1a6fe983221f95f873670e6a1e4e5c4eb",
+      "new_pixel_sha256": "fb27d2f854e0f445a97e094d0ff47bfd360d7df42d7576060b8ad0019b9cca90",
+      "before": "neoui_previews\\verified_media\\1643_before.png",
+      "after": "neoui_previews\\verified_media\\1643_after.png"
+    },
+    {
+      "before_png_sha256": "85ba1df3b531baa6837dac80e970f8f0eeb0041d20a755682d4dddab655b7a91",
+      "after_png_sha256": "f613444efa29aa906cfaa8325a592cf4c055157efde83e1d655a0856288f091c",
+      "mcf_id": 1642,
+      "logical_id": 803,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_06_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "06_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 803,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1642,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1878,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PLAY_PLAY_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1642,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "a46f0a6204c420c37aae3a95e486d58c87fd846691107184d2c8d2128a3c9b92",
+      "new_record_sha256": "4520fc7a1f94494b71e575cfa33fd9be1c6b8de0ab5dbff749b0b42ed40f2553",
+      "original_pixel_sha256": "e4a9eee123adf07668609c7628c186db926ced6bb85e4b9dfb0169db9bc4eb08",
+      "new_pixel_sha256": "f57444d544ec2e9da9ceceb4ba875790231ffafe0b4edf7dbb0d30d19f4503a8",
+      "before": "neoui_previews\\verified_media\\1642_before.png",
+      "after": "neoui_previews\\verified_media\\1642_after.png"
+    },
+    {
+      "before_png_sha256": "104c226b2e4bc7204fab67720411bfe9a77e3a60328612fcf79daede1b27cda4",
+      "after_png_sha256": "f59a4a891a594e9677a7b04266326c22a3e22b8cb2823adea06d949fd1c7be90",
+      "mcf_id": 1656,
+      "logical_id": 804,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_07_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "07_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 804,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1656,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "c43161955531fe6670dc951a38d5a987a411659b798698be85ac94467d509da7",
+      "new_record_sha256": "0ff9a63a0ba0b3932cac0a081f9a3f383b98e1bad0aa9ff7e0b005874bf21ee2",
+      "original_pixel_sha256": "f1a92ebcec2003d7eb44dbeb41d63d9160e209c1479fb16479fed4037fe81368",
+      "new_pixel_sha256": "b3780ec368e09fef15c6878433f5492a2cf633d186acdc549bfa1f90a24e5621",
+      "before": "neoui_previews\\verified_media\\1656_before.png",
+      "after": "neoui_previews\\verified_media\\1656_after.png"
+    },
+    {
+      "before_png_sha256": "84c0baafa79878f03296e6566d33e237b12f02f9b17001ccc2f52b0d2f5f371e",
+      "after_png_sha256": "9e87bf081793e8de6c9d332eddea4c0f8c60e81c382716c7d2aab9c86c4a3ee8",
+      "mcf_id": 1655,
+      "logical_id": 805,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_02_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "02_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 805,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_02_PNG",
+          "bank": 0,
+          "mcf_id": 1655,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "eca6f62c3a9cee78a8a38815d369e6551d1a5d8d48be5ffa8ed8cb4badb161af",
+      "new_record_sha256": "c09e01c28cfdf87752b2d7d220f1d222e6abf707a455b970812ef95752120f2e",
+      "original_pixel_sha256": "44ab7373ad45c3f57f5b03711bfd31732ee3428ca4eaeee195b3e7ddcc09e411",
+      "new_pixel_sha256": "e5930058a0f9add0a3acbd21a1ebab8a9cf90b594f32e0477ce14395150cd96c",
+      "before": "neoui_previews\\verified_media\\1655_before.png",
+      "after": "neoui_previews\\verified_media\\1655_after.png"
+    },
+    {
+      "before_png_sha256": "c882a6e104562475940ed1eb0803c8ff4352005c359fa003d2a9f954d666cfc2",
+      "after_png_sha256": "2b521477f73f6a065dc9b01f5193cc8b816caa942b40ff843b465f985308f476",
+      "mcf_id": 1640,
+      "logical_id": 806,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_04_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "04_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 806,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1640,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1880,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_B_SKIP_B_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1640,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "ddcaffe18d7ab752a96ce77396937ce8e5f9360545d60f21390279a7542f6529",
+      "new_record_sha256": "15e512ce1cd20e88a866c01005a364dc9057f4ef1fb88bd4c4b4122cd8eb1db6",
+      "original_pixel_sha256": "a6b94911d08033df5bfec5efc4fc539afb05e44e9ab956a3448598d8393762bc",
+      "new_pixel_sha256": "c80dc54f623e1fb2fb96a66a9e800847d78afb574d9f99aea2650927c020ffd1",
+      "before": "neoui_previews\\verified_media\\1640_before.png",
+      "after": "neoui_previews\\verified_media\\1640_after.png"
+    },
+    {
+      "before_png_sha256": "322e6b76e9d0005563c58127bef62969aa8a1ccae065a0fc027f8d4748db8dcf",
+      "after_png_sha256": "11b38fb3191177a7d2c536412495e2898a581f3935a3fb416821d10ce3e8b792",
+      "mcf_id": 1639,
+      "logical_id": 807,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_06_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "06_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 807,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1639,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1881,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_B_SKIP_B_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1639,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "e75d74bfd159d02b0c34844df89b1d879ca42029e6df812350a3dd62f8823b2d",
+      "new_record_sha256": "eb1121caf3ddbc66ceeab5ecdefcf4ead6bbabd90c8fb1fe746ad4e92d67c152",
+      "original_pixel_sha256": "2caaff9c4a70d1949ba24ebf1fc051cbd746d5bb500ca07dafea7e837696ba4f",
+      "new_pixel_sha256": "44fd8644b62eedab41dfc2a365d01844631bdb75310897d7072edaa5e0cb40b1",
+      "before": "neoui_previews\\verified_media\\1639_before.png",
+      "after": "neoui_previews\\verified_media\\1639_after.png"
+    },
+    {
+      "before_png_sha256": "0b92e66dd91f3a644304242a046d2d034ec9e2b87f3262674b6210dd5a922b32",
+      "after_png_sha256": "1d283a1334087dac44cb81a4453f17013dce5e57f229ce6cbd01ce33a741c09d",
+      "mcf_id": 1638,
+      "logical_id": 808,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_07_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "07_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 808,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1638,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1882,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_B_SKIP_B_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1638,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "8f832414fb2dc9a0db08708249839a56460751f345d2a6d4c1f8ddb7e4f96e59",
+      "new_record_sha256": "b1b2c47dffa084ebe6657f8437739385953ef647ff93a6897bd784c911e91817",
+      "original_pixel_sha256": "a515bc2ba40d91ae343887ffe3d5816a9363177288c482e3f2eb8cd642a020d3",
+      "new_pixel_sha256": "d8b28ee3c627ee2d6e2c9db0bee81549190ed73feeeb866eb6447d8e4d59ec95",
+      "before": "neoui_previews\\verified_media\\1638_before.png",
+      "after": "neoui_previews\\verified_media\\1638_after.png"
+    },
+    {
+      "before_png_sha256": "8e1dfd7a2a370bbc15cd7694677b60d60a47fd64cdb62dee7249eccd1082b72e",
+      "after_png_sha256": "10bfd34ca93b7d35bc34f967a1fba93bffd7d4e5f9967bff302f3870dfd6b548",
+      "mcf_id": 1654,
+      "logical_id": 809,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_02_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "02_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 809,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_02_PNG",
+          "bank": 0,
+          "mcf_id": 1654,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "cab68a87d35b6b3d47458e412e7936f65e35c0fdc5f79c973eab1a866e445e00",
+      "new_record_sha256": "def854b8a73a0cf7a7b8f522d708ab3385d77009c3eabe5e445caf6989ee6b23",
+      "original_pixel_sha256": "77cf8a6073f4dc8f580d45956f8dcc95f68633f341eca9a6323cd9cf8d7320be",
+      "new_pixel_sha256": "a57306b3d1a3cd43b14248e1ae39c2b8477bff9bb87393edc3b2e699267bbf0d",
+      "before": "neoui_previews\\verified_media\\1654_before.png",
+      "after": "neoui_previews\\verified_media\\1654_after.png"
+    },
+    {
+      "before_png_sha256": "42b947ac049c0b2265d93568c694ac1af0bb4dedccc5311c662e1220d15d9cad",
+      "after_png_sha256": "8a5712b61395f5790e866f2448a89cdb3412db50d9ec6a182ac39369a221ddd9",
+      "mcf_id": 1637,
+      "logical_id": 810,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_04_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "04_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 810,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1637,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1883,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_F_SKIP_F_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1637,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "4b0da882cb5c7d6f5e5b7a073e88fa51872f45022206b32f9b8324df1e049e05",
+      "new_record_sha256": "83042ae1a6d239da61db2c38a34977cc8f39f6dacb91f4a09a8c969e50af8aaa",
+      "original_pixel_sha256": "93622f7c1262082a5c9e7f2f05e40b2411db75c3f145eaf3be2f8fd39f7597ca",
+      "new_pixel_sha256": "c6f63ea588b958591d7fc449403a626d7c87e3c5bab343d85d9a59982f9e9455",
+      "before": "neoui_previews\\verified_media\\1637_before.png",
+      "after": "neoui_previews\\verified_media\\1637_after.png"
+    },
+    {
+      "before_png_sha256": "9096ee3edb95968ceb398629a46922c0f4886a85008d76c49e25183dcbd82501",
+      "after_png_sha256": "6c47f7b54641903be660e960fcd048cf01cc725ce5ecb6be496b200f322202d9",
+      "mcf_id": 1636,
+      "logical_id": 811,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_06_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "06_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 811,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1636,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1884,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_F_SKIP_F_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1636,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "8b81208b28625c1427a78e5ffdfa665b24ad216edc4e1b8777c394ba03579268",
+      "new_record_sha256": "3f11877b663942baa9f45b70d076072587078669004830dadcd163376a82318a",
+      "original_pixel_sha256": "62c730e6e5635d5638a937e78cc2f42a52ce1628e2b9cb1df1ee0ac52c3d22c5",
+      "new_pixel_sha256": "89971a0bb9bc822444b482d9b64b2a27d15e913a2d79df329ab09dba9bf03291",
+      "before": "neoui_previews\\verified_media\\1636_before.png",
+      "after": "neoui_previews\\verified_media\\1636_after.png"
+    },
+    {
+      "before_png_sha256": "94bc2d0b3a33721dbf21a03977e541a1f6e78acb6cea68d0652576998f81f3de",
+      "after_png_sha256": "fdcec6e5099d85362f7fffd35257491f0ac554f0c80a441045adc9b3e5987ee0",
+      "mcf_id": 1635,
+      "logical_id": 812,
+      "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_07_PNG",
+      "dimensions": [
+        120,
+        120
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "source_state_code": "07_PNG",
+      "scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "aliases": [
+        {
+          "logical_id": 812,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1635,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1885,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_F_SKIP_F_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1635,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "original_record_sha256": "ec4f2e47b9517899120ac603d137e73ba52a9f7e9b076b789e3a2d721e6771ed",
+      "new_record_sha256": "d142d4789ef7aefa82e5908d86d2f9773e0112ec99ddac34c8f0c42cc0229b36",
+      "original_pixel_sha256": "62bd10be036839f71a0e6913d3c5d56e763b7c468c41d197da75776b8c6e210e",
+      "new_pixel_sha256": "d0893a9a27138dfeaa0525bd27846312ea153224b7bc1dcab381827d0dd49efd",
+      "before": "neoui_previews\\verified_media\\1635_before.png",
+      "after": "neoui_previews\\verified_media\\1635_after.png"
+    },
+    {
+      "mcf_id": 2127,
+      "logical_ids": [
+        193,
+        194
+      ],
+      "screen": "HOME",
+      "dimensions": [
+        407,
+        300
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: exact resource link, shape/photo match and runtime layer/color path traced",
+      "aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 193,
+          "symbol": "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGO",
+          "bank": 0,
+          "mcf_id": 2127,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 194,
+          "symbol": "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGT",
+          "bank": 0,
+          "mcf_id": 2127,
+          "inset_index": 32,
+          "insets": [
+            0,
+            8,
+            0,
+            8
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "original_record_sha256": "ec94a7e09e40ca01b21d287043b2a7bd895fd3852124408d606134c38a8c13ed",
+      "new_record_sha256": "c6099b14e474a9ea56946eac73d49360e9863d79ba0ba6d100ab94624c0777ae",
+      "original_pixel_sha256": "6f037129b2280e85e200e09cb4bb8512349ea9e3e1334fa06d1dbfb996ef5a5b",
+      "new_pixel_sha256": "87922f0cd23681417d325804dcf1d022ed69b06bebaeb9d4c491cd5439c80cd6",
+      "before": "neoui_previews\\home_setup\\2127_before.png",
+      "after": "neoui_previews\\home_setup\\2127_after.png",
+      "before_png_sha256": "1a375142c2ca0eec4504788dee41f7b2fb0ae202fb6336c22976e15a027c6344",
+      "after_png_sha256": "6950f49fbaa2e4b9341f87d3c6dd6522e0e3ce726b46f3c01b35d6b0ed786e7b"
+    },
+    {
+      "mcf_id": 2126,
+      "logical_ids": [
+        193,
+        194
+      ],
+      "screen": "HOME",
+      "dimensions": [
+        407,
+        300
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: exact resource link, shape/photo match and runtime layer/color path traced",
+      "aliases": [
+        {
+          "layer": "secondary",
+          "day_night_same": true,
+          "logical_id": 193,
+          "symbol": "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGO",
+          "bank": 1,
+          "mcf_id": 2126,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        },
+        {
+          "layer": "secondary",
+          "day_night_same": true,
+          "logical_id": 194,
+          "symbol": "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGT",
+          "bank": 1,
+          "mcf_id": 2126,
+          "inset_index": 32,
+          "insets": [
+            0,
+            8,
+            0,
+            8
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "original_record_sha256": "ed53acd40724d4349fe354ae28e912eff7247f749e22c3d02ed7e601c85ff5f6",
+      "new_record_sha256": "3bad74d9ebe1c02a3f0c510bd0241125ff401fe1ed5a0f71515a953e4e13d2c7",
+      "original_pixel_sha256": "2b0a25427dde8fb69f54b9dc7d39ea85949afde5502d830b470bc0f19bcd0d4b",
+      "new_pixel_sha256": "04c2a0ebc434177f783ddaeac93b3aae66b52a2ef86bc3b3f24566c26317c55d",
+      "before": "neoui_previews\\home_setup\\2126_before.png",
+      "after": "neoui_previews\\home_setup\\2126_after.png",
+      "before_png_sha256": "2dbd6f433e6fa20cf2d5e15806989398e8821a96b621f964118fb0d9da7687db",
+      "after_png_sha256": "f5f05886ae1891c54847967fd9d3a6f0cf45b8a8b931ee78f7509242c18e1eff"
+    },
+    {
+      "mcf_id": 19,
+      "logical_ids": [
+        111
+      ],
+      "screen": "SETUP / shared skin3 lists",
+      "dimensions": [
+        88,
+        3
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: exact resource link, shape/photo match and runtime layer/color path traced",
+      "aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 111,
+          "symbol": "BACKGROUNDS_LIST_DIVIDE_HORIZONTAL_PNG",
+          "bank": 0,
+          "mcf_id": 19,
+          "inset_index": 2,
+          "insets": [
+            0,
+            20,
+            0,
+            20
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "original_record_sha256": "b3726cc1f7066b6a29a7bdd0ff1db66bf6e1e733ed714699709a0916d0dc5c2e",
+      "new_record_sha256": "2c9913f04c3a222ec7b3f97ae81da84621d688b3f80427ecb00120e446e69f74",
+      "original_pixel_sha256": "ad4d4c7240d1e048da04a075f847b80ed6eea96d480b32055ae68072890d658e",
+      "new_pixel_sha256": "409627c1eea3866d1d37152385eb76772f519e2a0eebb1820bc0d624660da4c8",
+      "before": "neoui_previews\\home_setup\\19_before.png",
+      "after": "neoui_previews\\home_setup\\19_after.png",
+      "before_png_sha256": "71374bcb1dcd6de2e95280a7e7475446d20219f84b8d523e42457a6d76bdf14a",
+      "after_png_sha256": "aff139ca4256ec916263c039a38845e7ce265a77b92f015b36cc23717c337176"
+    },
+    {
+      "mcf_id": 84,
+      "logical_ids": [
+        274
+      ],
+      "screen": "SETUP / shared skin3 lists",
+      "dimensions": [
+        25,
+        51
+      ],
+      "alpha": "byte-identical",
+      "confidence": "B: exact resource link, shape/photo match and runtime layer/color path traced",
+      "aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 274,
+          "symbol": "BACKGROUNDS_SCROLLBAR_SCROLLBAR_BG_06_PNG",
+          "bank": 0,
+          "mcf_id": 84,
+          "inset_index": 47,
+          "insets": [
+            12,
+            0,
+            12,
+            0
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "original_record_sha256": "ed473127d8e3662c3778ded6310d34eb09dd21b397bda3607de9ad22c3636078",
+      "new_record_sha256": "48aded851521ab70a7a2b7aecc60ee9edf0c4272e34779ee233d4c5ed877c1f4",
+      "original_pixel_sha256": "127da15a100d5e0b7bc3b0d8020b23dd42b6f57b1a44021d9a509f10daf9cf92",
+      "new_pixel_sha256": "33ca12c9d0a9ad6e8d13cc8cd108443d876dbae6eb93df8b3a4cce82e516e2ee",
+      "before": "neoui_previews\\home_setup\\84_before.png",
+      "after": "neoui_previews\\home_setup\\84_after.png",
+      "before_png_sha256": "2cdaa2673cdaf3693035129f4dfd0b34fec5df987a42341e90c906b57eadb258",
+      "after_png_sha256": "eadcba430737090a30f09f381020f51e97c7d09edcf0579d9259b855f627e4ff"
+    }
+  ],
+  "independent_restore_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+  "independent_restore_exact": true
+}
