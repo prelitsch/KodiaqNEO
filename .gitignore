@@ -20,3 +20,8 @@ NeoUI_v3/output/
 
 # Local archives
 *.zip
+
+# Local firmware backups, M.I.B. SD image and third-party probe source stay out of Git
+Kodiaq Backup/
+Complete initial SD Card Data/
+qnxprobe-main/
