@@ -51,5 +51,7 @@ M.I.B. MENU/foundation106 records remain exact;288 non-controlbar navigation rec
 
 Preview: neoui_previews/MEDIA_BT_V3_PREVIEW.html. Component compositions and artwork/text samples are not captured head-unit output. Independent new skin slot remains UNKNOWN; this is a reversible offline skin3 replacement candidate, not a car-ready additional skin or full UI release.
 ''',encoding='utf-8')
- print('PASS: current54-record state, resource map, scenario ledger and media/BT report updated')
+ from release_context import apply
+ apply()
+ print('PASS: current54-record design state, resource map, scenario ledger and media/BT report updated')
 if __name__=='__main__':main()

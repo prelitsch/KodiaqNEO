@@ -1,3 +1,5 @@
+> RELEASE HOLD: This is historical v1-based design validation, not an approved v2→v3 payload. Updated AGENTS.md reports v2 installer success; fresh baseline and post-reboot checks remain unconfirmed. See PIPELINE_RECONCILIATION.md.
+
 # MEDIEN / Bluetooth — verified offline graphics
 
 Eight new assets, 54 total. The exact previous46-record stage is retained. This is a versioned skin3 fallback; independently selectable new slot remains UNKNOWN. It is not a complete or car-tested theme release.

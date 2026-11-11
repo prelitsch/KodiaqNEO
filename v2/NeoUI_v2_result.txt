@@ -1,0 +1,38 @@
+NeoUI v2: --- session ---
+NeoUI v2: SD write/readback passed
+NeoUI v2: MODE: PRECHECK ONLY
+NeoUI v2: Firmware: MHI2_ER_SKG13_P4526 / MU1440
+NeoUI v2: FAILED - Payload checksum incorrect: UNKNOWN
+NeoUI v2: END: FAILED - do not reboot expecting success
+NeoUI v2: --- session ---
+NeoUI v2: SD write/readback passed
+NeoUI v2: MODE: PRECHECK ONLY
+NeoUI v2: Firmware: MHI2_ER_SKG13_P4526 / MU1440
+NeoUI v2: Payload checksum verified
+NeoUI v2: Current installed skin3 SHA1: 641c34e42ed5843c1795bf860fd4cb7bbb913fdb
+NeoUI v2: SD backup of v1 saved and verified
+NeoUI v2: PRECHECK OK - v1 backed up; no app files modified
+NeoUI v2: END: completed
+NeoUI v2: --- session ---
+NeoUI v2: SD write/readback passed
+NeoUI v2: MODE: INSTALL v2 (armed)
+NeoUI v2: Firmware: MHI2_ER_SKG13_P4526 / MU1440
+NeoUI v2: Payload checksum verified
+NeoUI v2: Current installed skin3 SHA1: 641c34e42ed5843c1795bf860fd4cb7bbb913fdb
+NeoUI v2: SD backup of v1 verified
+NeoUI v2: PRECHECK OK - v1 backed up; no app files modified
+NeoUI v2: FAILED - Cannot determine available application storage
+NeoUI v2: END: FAILED - do not reboot expecting success
+NeoUI v2: --- session ---
+NeoUI v2: SD write/readback passed
+NeoUI v2: MODE: INSTALL v2 (armed)
+NeoUI v2: Firmware: MHI2_ER_SKG13_P4526 / MU1440
+NeoUI v2: Payload checksum verified
+NeoUI v2: Current installed skin3 SHA1: 641c34e42ed5843c1795bf860fd4cb7bbb913fdb
+NeoUI v2: SD backup of v1 verified
+NeoUI v2: PRECHECK OK - v1 backed up; no app files modified
+NeoUI v2: Storage check passed: 389861 KB available
+NeoUI v2: INSTALL explicitly armed; touching app filesystem now
+NeoUI v2: On-device v1 backup verified
+NeoUI v2: SUCCESS - Installed NeoUI v2 MENU Pilot graphics. Only skin3/images.mcf replaced.
+NeoUI v2: END: completed

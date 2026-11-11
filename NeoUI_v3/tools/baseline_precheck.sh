@@ -24,7 +24,14 @@ echo "MODE=$MODE"
 echo 'WRITE_POLICY=STDOUT_ONLY'
 echo 'RELEASE_READY=false'
 fail() { echo "FAILED=$*"; echo 'END=FAILED'; exit 1; }
-for cmd in on awk wc ls df mount date; do
+utc_now() {
+    if command -v date >/dev/null 2>&1; then
+        NOW=$(date -u '+%Y-%m-%dT%H:%M:%SZ' 2>/dev/null) || NOW=
+        [ -n "$NOW" ] && { echo "$NOW"; return 0; }
+    fi
+    echo UNKNOWN
+}
+for cmd in on awk wc ls df mount; do
     command -v "$cmd" >/dev/null 2>&1 || fail "missing dependency: $cmd"
 done
 for marker in INSTALL_V3_NOW RESTORE_V2 DIAGNOSTIC_ONLY; do
@@ -32,7 +39,7 @@ for marker in INSTALL_V3_NOW RESTORE_V2 DIAGNOSTIC_ONLY; do
 done
 [ -x "$PC" ] && [ -x "$SHA" ] || fail 'firmware reader or SHA1 executable missing'
 [ -f "$IMG" ] && [ ! -L "$IMG" ] || fail 'target absent, not regular or symbolic link'
-START=$(date -u '+%Y-%m-%dT%H:%M:%SZ') || fail 'UTC clock unavailable'
+START=$(utc_now)
 echo "START_UTC=$START"
 # Preserve subprocess status before parsing; never strip arbitrary garbage into a match.
 T=$(on -f mmx "$PC" s:30:1966084) || fail 'firmware train read failed'
@@ -86,8 +93,11 @@ echo 'DF_RAW_END'
 FREE=$(echo "$DF_TEXT" | awk '
     $1 ~ /^\/dev\// {
         rows++; pct=0
+        point=$NF; sub(/\/$/, "", point)
+        if(point!="/mnt/app" && point!="/net/mmx/mnt/app") bad=1
         for(i=1;i<=NF;i++) if($i ~ /^[0-9]+%$/) {
             pct++; if(i<2 || $(i-1) !~ /^[0-9]+$/) bad=1; else free=$(i-1)
+            percent=$i; sub(/%$/, "", percent); if(percent+0>100) bad=1
         }
         if(pct!=1) bad=1
     }
@@ -109,7 +119,7 @@ A2=$(ls -ldn "$IMG") || fail 'final attributes failed'
 [ "$H1" = "$H2" ] && [ "$BYTES" = "$B2" ] && [ "$ATTR" = "$A2" ] || fail 'target changed during collection'
 echo 'STABLE_DURING_COLLECTION=true'
 echo 'POST_REBOOT_VERIFICATION=UNKNOWN'
-END_TIME=$(date -u '+%Y-%m-%dT%H:%M:%SZ') || fail 'UTC clock unavailable'
+END_TIME=$(utc_now)
 echo "END_UTC=$END_TIME"
 echo 'END=COLLECTED_NOT_RELEASE_AUTHORIZATION'
 exit 0

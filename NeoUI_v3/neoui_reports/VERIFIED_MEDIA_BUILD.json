@@ -759,5 +759,9 @@
       "before": "neoui_previews\\verified_media\\1635_before.png",
       "after": "neoui_previews\\verified_media\\1635_after.png"
     }
-  ]
+  ],
+  "artifact_role": "preserved v1-based offline design, not a confirmed installed-baseline release",
+  "release_ready": false,
+  "expected_current_installed_baseline": null,
+  "recovery_scope": "exact v1 design reference only; not v2 rollback"
 }

@@ -23,3 +23,11 @@ neoui_previews/
 neoui_reports/resolved_images_res.json
 neoui_reports/RESOLVED_RESOURCE_MAP.csv
 neoui_reports/viewhandler_image_symbols.csv
+
+# Editable derivatives and immutable offline rehearsal output remain local-only.
+resources/masters/
+neoui_build/rehearsals/
+neoui_workspace/baseline_receipts/
+neoui_reports/LIVE_BASELINE_REVIEW.json
+*.mcf
+*.bin

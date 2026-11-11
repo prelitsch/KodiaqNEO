@@ -415,5 +415,6 @@
         2217
       ]
     }
-  ]
+  ],
+  "artifact_role": "preserved v1-based design previews; not a current-installed-baseline release"
 }

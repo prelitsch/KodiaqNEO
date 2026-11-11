@@ -1,3 +1,5 @@
+> RELEASE HOLD: This is historical v1-based design validation, not an approved v2→v3 payload. Updated AGENTS.md reports v2 installer success; fresh baseline and post-reboot checks remain unconfirmed. See PIPELINE_RECONCILIATION.md.
+
 # NeoUI v3 mapping and implementation
 
 Current stage:54 real MCF records (16 media transport,4 HOME/SETUP,26 vehicle/navigation,8 additional media/BT). See VERIFIED_MEDIA_BT_BUILD.json for exact source/new record, pixel and PNG hashes, geometry/alpha, aliases and compiled bindings. MEDIA_BT_RESOURCE_EVIDENCE.json resolves Mbam/related media views plus cover/artwork and state scripts. Earlier VEHICLE_NAV_RESOURCE_EVIDENCE.json and runtime tint evidence remain applicable.

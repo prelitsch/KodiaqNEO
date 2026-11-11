@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "standard_png_filters": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "known_rgba_bytes_match": true,
+  "wrong_dimensions_rejected": true,
+  "corrupt_crc_rejected": true
+}

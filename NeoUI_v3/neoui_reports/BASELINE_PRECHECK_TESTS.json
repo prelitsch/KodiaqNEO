@@ -1,0 +1,148 @@
+{
+  "status": "PASS OFFLINE MOCKS ONLY",
+  "shell": "C:\\Program Files\\Git\\bin\\sh.exe",
+  "shell_syntax": true,
+  "shellcheck": "not installed; read-only command audit, isolated mocks and fixture byte snapshots used; QNX empiricism still required",
+  "collector_cases": [
+    {
+      "name": "known_v2",
+      "expected": "collected, not authorized",
+      "passed": true
+    },
+    {
+      "name": "known_v1",
+      "expected": "collected, not authorized",
+      "passed": true
+    },
+    {
+      "name": "known_mib",
+      "expected": "collected, not authorized",
+      "passed": true
+    },
+    {
+      "name": "unknown_hash",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "hash_unknown",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "hash_failure",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong_train",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong_mu",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "reader_failure",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "garbage_train",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "df_failure",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "df_ambiguous",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "df_nonnumeric",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "df_no_dev",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong_df_mount",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "invalid_percent",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "zero_free_discovery",
+      "expected": "collected, not authorized",
+      "passed": true
+    },
+    {
+      "name": "mount_failure",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "sha256_failure",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "missing_target",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "missing_metadata",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "missing_reader",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "install_marker",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "restore_marker",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "conflicting_markers",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_marker",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "name": "no_sha256_is_incomplete",
+      "passed": true
+    }
+  ],
+  "receipt_review_tests": 8,
+  "all_fixture_files_unchanged": true,
+  "device_commands_mocked": true,
+  "sd_or_vehicle_access": false,
+  "device_baseline_confirmed": false,
+  "release_ready": false
+}

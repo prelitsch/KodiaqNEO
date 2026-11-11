@@ -9995,7 +9995,7 @@
         }
       ],
       "implemented": true,
-      "screen_confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "screen_confidence": "A: static compiled media view/array/script -> logical ID -> MCF; no head-unit test",
       "scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
     },
     {
@@ -10022,7 +10022,7 @@
         }
       ],
       "implemented": true,
-      "screen_confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "screen_confidence": "A: static compiled media view/array/script -> logical ID -> MCF; no head-unit test",
       "scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
     },
     {
@@ -10049,7 +10049,7 @@
         }
       ],
       "implemented": true,
-      "screen_confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "screen_confidence": "A: static compiled media view/array/script -> logical ID -> MCF; no head-unit test",
       "scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
     },
     {
@@ -10076,7 +10076,7 @@
         }
       ],
       "implemented": true,
-      "screen_confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "screen_confidence": "A: static compiled media view/array/script -> logical ID -> MCF; no head-unit test",
       "scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
     },
     {
@@ -10103,7 +10103,7 @@
         }
       ],
       "implemented": true,
-      "screen_confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "screen_confidence": "A: static compiled media view/array/script -> logical ID -> MCF; no head-unit test",
       "scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
     },
     {
@@ -10130,7 +10130,7 @@
         }
       ],
       "implemented": true,
-      "screen_confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "screen_confidence": "A: static compiled media view/array/script -> logical ID -> MCF; no head-unit test",
       "scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
     },
     {
@@ -10157,7 +10157,7 @@
         }
       ],
       "implemented": true,
-      "screen_confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "screen_confidence": "A: static compiled media view/array/script -> logical ID -> MCF; no head-unit test",
       "scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
     },
     {
@@ -10184,8 +10184,9 @@
         }
       ],
       "implemented": true,
-      "screen_confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "screen_confidence": "A: static compiled media view/array/script -> logical ID -> MCF; no head-unit test",
       "scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
     }
-  ]
+  ],
+  "release_status": "HOLD: catalog describes preserved v1 design; installed baseline unknown; no v2 deployment approval"
 }

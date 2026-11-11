@@ -1,0 +1,3615 @@
+{
+  "schema_version": 1,
+  "status": "design catalog; not live baseline",
+  "resources": {
+    "lists.divider": {
+      "mcf_id": 19,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        88,
+        3
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\lists\\divider.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "aff139ca4256ec916263c039a38845e7ce265a77b92f015b36cc23717c337176",
+      "original_record_sha256": "b3726cc1f7066b6a29a7bdd0ff1db66bf6e1e733ed714699709a0916d0dc5c2e",
+      "design_record_sha256": "2c9913f04c3a222ec7b3f97ae81da84621d688b3f80427ecb00120e446e69f74",
+      "design_pixel_sha256": "409627c1eea3866d1d37152385eb76772f519e2a0eebb1820bc0d624660da4c8",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 111,
+          "symbol": "BACKGROUNDS_LIST_DIVIDE_HORIZONTAL_PNG",
+          "bank": 0,
+          "mcf_id": 19,
+          "inset_index": 2,
+          "insets": [
+            0,
+            20,
+            0,
+            20
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "SETUP / shared skin3 lists",
+      "affected_scope": "SETUP / shared skin3 lists; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "B: exact resource link, shape/photo match and runtime layer/color path traced",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BACKGROUNDS_LIST_DIVIDE_HORIZONTAL_PNG"
+      ]
+    },
+    "lists.scrollbar.track": {
+      "mcf_id": 84,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        25,
+        51
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\lists\\scrollbar\\track.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "eadcba430737090a30f09f381020f51e97c7d09edcf0579d9259b855f627e4ff",
+      "original_record_sha256": "ed473127d8e3662c3778ded6310d34eb09dd21b397bda3607de9ad22c3636078",
+      "design_record_sha256": "48aded851521ab70a7a2b7aecc60ee9edf0c4272e34779ee233d4c5ed877c1f4",
+      "design_pixel_sha256": "33ca12c9d0a9ad6e8d13cc8cd108443d876dbae6eb93df8b3a4cce82e516e2ee",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 274,
+          "symbol": "BACKGROUNDS_SCROLLBAR_SCROLLBAR_BG_06_PNG",
+          "bank": 0,
+          "mcf_id": 84,
+          "inset_index": 47,
+          "insets": [
+            12,
+            0,
+            12,
+            0
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "SETUP / shared skin3 lists",
+      "affected_scope": "SETUP / shared skin3 lists; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "B: exact resource link, shape/photo match and runtime layer/color path traced",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BACKGROUNDS_SCROLLBAR_SCROLLBAR_BG_06_PNG"
+      ]
+    },
+    "nav.action.announcements.c04": {
+      "mcf_id": 984,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\nav\\action\\announcements\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "2540cbc73856938eead691caec323b70fdc67f4fb0a6d091f13245878c8ae07b",
+      "original_record_sha256": "1c77ed5911baf40e964ae51866ff211988b0cec3803d607b1392300b1418b96e",
+      "design_record_sha256": "25e4f148f879bc4bc5e0a75b8c5d0a07cfa442ea1ce6fbedc0c09496a7d9b492",
+      "design_pixel_sha256": "9720bf113def508156c2c8d903a4dd55916fd55e1c5bd06cdad87e7a3cea186c",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1942,
+          "symbol": "ICONS_NAVI_CONTROLBAR_VOLUME_VOLUME_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 984,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_VOLUME_VOLUME_C_04_PNG"
+      ]
+    },
+    "shared.action.tv.c06": {
+      "mcf_id": 985,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\action\\tv\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "258a50d15430678b7d774f247034aaa9acdd5c576d29c88cc4193ee76b6745e1",
+      "original_record_sha256": "094f96ecfe4d9d304f450e53991530cda6beb3173d0f5e1af287d0725a6cd2ea",
+      "design_record_sha256": "99c8aff07f3e932bda233de073cc03cd04f24812f576c75c6531477b25fa6ea5",
+      "design_pixel_sha256": "4f2159f6b48486f201d783000bf532511a7cc9cd9350d91e2b9ca7a354ce5905",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1941,
+          "symbol": "ICONS_NAVI_CONTROLBAR_TV_TV_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 985,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_TV_TV_C_06_PNG"
+      ]
+    },
+    "nav.action.switch_map.c06": {
+      "mcf_id": 986,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\nav\\action\\switch_map\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "6ef006c693474933e2894e39bd1e64d20e7a80b6caa06836494e46af28100f1c",
+      "original_record_sha256": "d888737c97eb72ece1239173edcc301259d75d066a8413ba2d1a5aff07a89d08",
+      "design_record_sha256": "383584be7250483d10bde6d85a4a3981a62b4eb63bc21c355dfe41971fe2c23d",
+      "design_pixel_sha256": "01ef585d8e1011593ed69c9a347f27c22cfb132bc11d1adc119cea8a2926a0ec",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1940,
+          "symbol": "ICONS_NAVI_CONTROLBAR_SWITCH_MAP_SWITCH_MAP_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 986,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_SWITCH_MAP_SWITCH_MAP_C_06_PNG"
+      ]
+    },
+    "nav.action.poi.c06": {
+      "mcf_id": 987,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\nav\\action\\poi\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "454dd9326e6092cfbc9385c707d4c0f077a3ad7e2924c84e2f219a876411b337",
+      "original_record_sha256": "bb587baa958a662fe5adbb5823b2a22e27ce8836ecd566943e2cf19ed8b54a3b",
+      "design_record_sha256": "94203dae5e792d90d532435a24cb832c89469204f231cb15ee5e2687e5d5ecae",
+      "design_pixel_sha256": "692cbaf9630a9fec6babe1668f467438984d01b481396b41a97f6125478cdf0a",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1939,
+          "symbol": "ICONS_NAVI_CONTROLBAR_SPECIAL_DESTINATIONS_SPECIAL_DESTINATIONS_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 987,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_SPECIAL_DESTINATIONS_SPECIAL_DESTINATIONS_C_06_PNG"
+      ]
+    },
+    "nav.action.new_destination.c06": {
+      "mcf_id": 988,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\nav\\action\\new_destination\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "340a7059a1baf573cb1974dbe165cfd382358df773e79dc7951b18c7250b23ae",
+      "original_record_sha256": "9f1df27a0514898686237fbc7f099c7579df8ccb3bcd62a5aa7a0b29fb8a0339",
+      "design_record_sha256": "3f76168ec114b1fed93b51c002d534e4280610678e6bcc16d3ed6a274d81c317",
+      "design_pixel_sha256": "b74148a58b5f08d3a08544d4df27c7d75a4493264f4c27194091e999c5228c67",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1938,
+          "symbol": "ICONS_NAVI_CONTROLBAR_NEW_DESTINATION_NEW_DESTINATION_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 988,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_NEW_DESTINATION_NEW_DESTINATION_C_06_PNG"
+      ]
+    },
+    "nav.action.new_destination.c04": {
+      "mcf_id": 989,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\nav\\action\\new_destination\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "fbbcd43fda73080a88a78f989d46c0bf4c42cf30745d4503eda05319a3b8bd15",
+      "original_record_sha256": "89b1b5b2359f42774f93b9d89f02a5197cd075d96c971b25efa60ea74bca69f6",
+      "design_record_sha256": "bec435b158dff07cee540b6c5742d1fd167aa219e507506ddca0ac64b21176d9",
+      "design_pixel_sha256": "0a5399d122c09f5cc89ec55d8739dac19f80a0daac96bdbb0991144ec05557c7",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1937,
+          "symbol": "ICONS_NAVI_CONTROLBAR_NEW_DESTINATION_NEW_DESTINATION_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 989,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_NEW_DESTINATION_NEW_DESTINATION_C_04_PNG"
+      ]
+    },
+    "nav.action.my_destinations.c06": {
+      "mcf_id": 990,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\nav\\action\\my_destinations\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "12eaffd05ee2d8dfe7eb6704e312af5479fef7d878520c9b5c5767fda41fb8de",
+      "original_record_sha256": "0aa7f517b7ca852dfe729b775258c7d2dd04057e39ef6b30a2f401585ddfbedd",
+      "design_record_sha256": "830a89a3a2afc59f05c28403bda160d4e8fb2bf0fb526919a8ff776d6ca31e61",
+      "design_pixel_sha256": "5381af65408f16bed391b2dc02aecb27b5fa15b125a4bcd5ffacfbed1822d620",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1936,
+          "symbol": "ICONS_NAVI_CONTROLBAR_MY_DESTINATIONS_MY_DESTINATIONS_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 990,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_MY_DESTINATIONS_MY_DESTINATIONS_C_06_PNG"
+      ]
+    },
+    "nav.action.my_destinations.c04": {
+      "mcf_id": 991,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\nav\\action\\my_destinations\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "71c9756a95215f6a6a6f83829c3b8fbc7a88140ad8483f4952777abbd46c4d9f",
+      "original_record_sha256": "40de1c3d23bc5283ea4439f50b56d557bc8190d1f0757b382d8b0cfbf5ddda78",
+      "design_record_sha256": "2280e3aa7ef8ee320cc199418eb221660ef8a9cf698315ff6e015e9182f1521b",
+      "design_pixel_sha256": "f9992d6db5893dfa954071c580762b5e3bac879021bd216e87b19dd37f731cc7",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1935,
+          "symbol": "ICONS_NAVI_CONTROLBAR_MY_DESTINATIONS_MY_DESTINATIONS_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 991,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_MY_DESTINATIONS_MY_DESTINATIONS_C_04_PNG"
+      ]
+    },
+    "nav.action.map_view.c06": {
+      "mcf_id": 992,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\nav\\action\\map_view\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "8c4cd127f747a37397635b97a5024ce915ffb61941aec063f76a4eeb99beb58f",
+      "original_record_sha256": "a819176363257dd0c1e32d63d16f05694d5d88b3e015ddab6c5f000ef58a1b92",
+      "design_record_sha256": "35d80df4b3c681fb697a8eecc6e8e4a4907b086e5a6171b02b510a46ac23f961",
+      "design_pixel_sha256": "faf67b453794118579dd74321c73aaa4f784a4baf93079b9748f1a4416cd6a48",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1934,
+          "symbol": "ICONS_NAVI_CONTROLBAR_MAP_VIEW_MAP_VIEW_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 992,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_MAP_VIEW_MAP_VIEW_C_06_PNG"
+      ]
+    },
+    "nav.action.map_view.c04": {
+      "mcf_id": 993,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\nav\\action\\map_view\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "b0b30ef5f68deb63492e130fd534c53651a6494ba8b8db4e53befb3f3c5eb9d2",
+      "original_record_sha256": "a060566a333abd137f9e4281c0f08c567ce640890d2f1b144e5625665afeda74",
+      "design_record_sha256": "afcb5a6501877a16eeb579632addbda867eec50d8294aaaa54b7ac1d50425353",
+      "design_pixel_sha256": "c0078791a1f676af6a9f9ef7d8bdb1869c971909159629adc3f9f69ce3f75a3d",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1933,
+          "symbol": "ICONS_NAVI_CONTROLBAR_MAP_VIEW_MAP_VIEW_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 993,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_NAVI_CONTROLBAR_MAP_VIEW_MAP_VIEW_C_04_PNG"
+      ]
+    },
+    "shared.action.setup": {
+      "mcf_id": 1000,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\action\\setup.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "2354ca2c192ca4faae0e668159239e5515b25224ebc9806d8a0f08a7b57b51aa",
+      "original_record_sha256": "45dbe3d9196539529437b70a52ff8fa9fa60f7be8e306cc71536b30aeae4fefa",
+      "design_record_sha256": "941d7effe41c9edb09336d193adaa917c5d52a6cd957bb43c81d703074282405",
+      "design_pixel_sha256": "2e9855be9b0eb1e21b38296199a9014170aa70a3ebe662c38167e981f7a81534",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1752,
+          "symbol": "ICONS_GENERAL_SETUP_SETUP_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1000,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_GENERAL_SETUP_SETUP_C_06_PNG"
+      ]
+    },
+    "shared.action.tuner": {
+      "mcf_id": 1014,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\action\\tuner.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "13a95bcdebaa29d2fda300ac0bdba423c53499033358262a5487528ae5cdaee9",
+      "original_record_sha256": "7b9e9e50f9a61f7dfa42c5c14054f0c6c182cb592c4dbdfe79c9512ea5701fc0",
+      "design_record_sha256": "62de01a22f29f1a24a37d86e0821a9dbe8f7ad9d91a503eedc5840a33f6fefdd",
+      "design_pixel_sha256": "900648cbd2fae747fcf883b8e0548d8cbe677bca09170b43fac4de5ee01377c3",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 995,
+          "symbol": "ICONS_CAR_CONTROLBAR_TUNER_TUNER_C_06_PNG4",
+          "bank": 0,
+          "mcf_id": 1014,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_CAR_CONTROLBAR_TUNER_TUNER_C_06_PNG4"
+      ]
+    },
+    "shared.action.media": {
+      "mcf_id": 1015,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\action\\media.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "ed303a3f05e0600ac2c4dc80e65bb4dd160567c53b5b234804040731fbfd1ace",
+      "original_record_sha256": "ed8d6497e0352bc14ba48bef43f8bff88111f3b5242d92dc4012f13a4abcb7bd",
+      "design_record_sha256": "c89a08da3f3755ea18cf4a6aaa80c52533dcea56fab3d46d072f56bc5e4863b8",
+      "design_pixel_sha256": "f3e376a6dd69aef861878e21cd15f499f20d7fd71883aa35b061182d0ed745e8",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 994,
+          "symbol": "ICONS_CAR_CONTROLBAR_MEDIA_MEDIA_C_06_PNG6",
+          "bank": 0,
+          "mcf_id": 1015,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_CAR_CONTROLBAR_MEDIA_MEDIA_C_06_PNG6"
+      ]
+    },
+    "vehicle.action.view": {
+      "mcf_id": 1024,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\vehicle\\action\\view.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "1d1aad15b8ba410fda14aed24969215a2d546c6c39a750da227bfbf8e9680afb",
+      "original_record_sha256": "aeafc0a426c69225b199c74d5f96985508701fab7b0eab3cd78db3aefb9f8953",
+      "design_record_sha256": "b7ef759ba4053109b96b7a73a52fcdf2f707d8045800bd2f79bb36735adc0cd6",
+      "design_pixel_sha256": "35e238909d9c92688c9b496fb5685da8a736b9af49068856e77ed5403403fac9",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 984,
+          "symbol": "ICONS_CAR_CONTROLBAR_CAR_VIEW_CAR_VIEW_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1024,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_CAR_CONTROLBAR_CAR_VIEW_CAR_VIEW_C_06_PNG"
+      ]
+    },
+    "media.action.playlist": {
+      "mcf_id": 1036,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        78,
+        52
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\action\\playlist.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "10bf636f14ba2bfdaeb51fc920b371a69b28484fca0587f07d7f0f6378a8402b",
+      "original_record_sha256": "68fd36fc849eeb1ac804ade9bce0f901eedc40f1c863205ec207ea35f9ce3c61",
+      "design_record_sha256": "efa4a6b9883d0d4539582dd1da23350a88c1aa64b0bec652c7daba775fdbe782",
+      "design_pixel_sha256": "1fcb53a85ac03f9ab01264f6f68ac1df1d12d151b4445dc47458d8e24428216e",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 732,
+          "symbol": "ICONS_AUDIO_CONTROLBAR_LIST_LIST_C_06_PNG0",
+          "bank": 0,
+          "mcf_id": 1036,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 830,
+          "symbol": "ICONS_AUDIO_PLAYLIST_PLAYLIST_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1036,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 831,
+          "symbol": "ICONS_AUDIO_PLAYLIST_SETUP_PLAYLIST_SETUP_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1036,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "MEDIEN controlbar / playlist / playlist setup",
+      "affected_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes.",
+      "confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_CONTROLBAR_LIST_LIST_C_06_PNG0",
+        "ICONS_AUDIO_PLAYLIST_PLAYLIST_C_06_PNG",
+        "ICONS_AUDIO_PLAYLIST_SETUP_PLAYLIST_SETUP_C_06_PNG"
+      ]
+    },
+    "lists.type090.normal": {
+      "mcf_id": 1131,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        50,
+        94
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\lists\\type090\\normal.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "2eeda770be00b657ffc81eaeb8b9a9563bb972bf4138673e057aa2d03a498e2b",
+      "original_record_sha256": "c5c86638851c2b8c44a13ca40d275ed238b8b78aed4746f49b61c8ccaba3f3d8",
+      "design_record_sha256": "6616026840d43489b7eaefc2fe403754fc0cf1bef49eac4103d57c89bdccd220",
+      "design_pixel_sha256": "def8f26f30c8d6c0ea22f8f218b4b5d70039250b2a821571d4afb50b33cb298e",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 573,
+          "symbol": "BUTTONS_TYPE090_TYPE090_06_PNG",
+          "bank": 0,
+          "mcf_id": 1131,
+          "inset_index": 1,
+          "insets": [
+            24,
+            24,
+            24,
+            24
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 574,
+          "symbol": "BUTTONS_TYPE090_TYPE090_06_PNG",
+          "bank": 0,
+          "mcf_id": 1131,
+          "inset_index": 51,
+          "insets": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 575,
+          "symbol": "BUTTONS_TYPE090_TYPE090_06_PNG",
+          "bank": 0,
+          "mcf_id": 1131,
+          "inset_index": 60,
+          "insets": [
+            30,
+            24,
+            30,
+            24
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Shared media source-list state",
+      "affected_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes.",
+      "confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BUTTONS_TYPE090_TYPE090_06_PNG",
+        "BUTTONS_TYPE090_TYPE090_06_PNG",
+        "BUTTONS_TYPE090_TYPE090_06_PNG"
+      ]
+    },
+    "lists.type090.pressed": {
+      "mcf_id": 1133,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        50,
+        94
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\lists\\type090\\pressed.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "75555b944000312d790c87343fdf006376aa80aeb24031c3c3958ecda643d5b1",
+      "original_record_sha256": "3336d455478c0c56d93d9f35e94575b4cdcd526759968fe8b502e34ab490906e",
+      "design_record_sha256": "696883c74682b3ad1222e0894f83c012a037eb3f0ec0ee4213c33bc01eed99df",
+      "design_pixel_sha256": "e97a05ced91828a43a41365ea64d510b2ee6743bbc4f06e4d40dfcac376bf674",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 567,
+          "symbol": "BUTTONS_TYPE090_LIST_PRESSED_PNG",
+          "bank": 0,
+          "mcf_id": 1133,
+          "inset_index": 18,
+          "insets": [
+            0,
+            24,
+            0,
+            24
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 568,
+          "symbol": "BUTTONS_TYPE090_LIST_PRESSED_PNG",
+          "bank": 0,
+          "mcf_id": 1133,
+          "inset_index": 1,
+          "insets": [
+            24,
+            24,
+            24,
+            24
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 569,
+          "symbol": "BUTTONS_TYPE090_LIST_PRESSED_PNG",
+          "bank": 0,
+          "mcf_id": 1133,
+          "inset_index": 1,
+          "insets": [
+            24,
+            24,
+            24,
+            24
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 570,
+          "symbol": "BUTTONS_TYPE090_LIST_PRESSED_PNG",
+          "bank": 0,
+          "mcf_id": 1133,
+          "inset_index": 51,
+          "insets": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 571,
+          "symbol": "BUTTONS_TYPE090_LIST_PRESSED_PNG",
+          "bank": 0,
+          "mcf_id": 1133,
+          "inset_index": 60,
+          "insets": [
+            30,
+            24,
+            30,
+            24
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Shared media source-list state",
+      "affected_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes.",
+      "confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BUTTONS_TYPE090_LIST_PRESSED_PNG",
+        "BUTTONS_TYPE090_LIST_PRESSED_PNG",
+        "BUTTONS_TYPE090_LIST_PRESSED_PNG",
+        "BUTTONS_TYPE090_LIST_PRESSED_PNG",
+        "BUTTONS_TYPE090_LIST_PRESSED_PNG"
+      ]
+    },
+    "lists.type090.disabled": {
+      "mcf_id": 1134,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        50,
+        94
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\lists\\type090\\disabled.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "212c1d1e3000dbb780ffff8acc137c1907bbc28ce58dd3efa019cfdd9bb1c132",
+      "original_record_sha256": "2e6e0c0fb862c7e4c11104e9235ac1fae6df2cf5c1dafbc2e3bc60090ea51adc",
+      "design_record_sha256": "af36652dac51c458be0f9778db337137db6cdde3e13933c35fd4ebd2178835c3",
+      "design_pixel_sha256": "8f2c4471969be291e1ba07237f248ea789a027cd366d0c5087abdaed7a90bf73",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 564,
+          "symbol": "BUTTONS_TYPE090_LIST_DISABLED_PNG6",
+          "bank": 0,
+          "mcf_id": 1134,
+          "inset_index": 1,
+          "insets": [
+            24,
+            24,
+            24,
+            24
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 565,
+          "symbol": "BUTTONS_TYPE090_LIST_DISABLED_PNG",
+          "bank": 0,
+          "mcf_id": 1134,
+          "inset_index": 51,
+          "insets": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 566,
+          "symbol": "BUTTONS_TYPE090_LIST_DISABLED_PNG",
+          "bank": 0,
+          "mcf_id": 1134,
+          "inset_index": 60,
+          "insets": [
+            30,
+            24,
+            30,
+            24
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Shared media source-list state",
+      "affected_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes.",
+      "confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BUTTONS_TYPE090_LIST_DISABLED_PNG6",
+        "BUTTONS_TYPE090_LIST_DISABLED_PNG",
+        "BUTTONS_TYPE090_LIST_DISABLED_PNG"
+      ]
+    },
+    "media.transport.next.c07": {
+      "mcf_id": 1635,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\next\\c07.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "fdcec6e5099d85362f7fffd35257491f0ac554f0c80a441045adc9b3e5987ee0",
+      "original_record_sha256": "ec4f2e47b9517899120ac603d137e73ba52a9f7e9b076b789e3a2d721e6771ed",
+      "design_record_sha256": "d142d4789ef7aefa82e5908d86d2f9773e0112ec99ddac34c8f0c42cc0229b36",
+      "design_pixel_sha256": "d0893a9a27138dfeaa0525bd27846312ea153224b7bc1dcab381827d0dd49efd",
+      "logical_aliases": [
+        {
+          "logical_id": 812,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1635,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1885,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_F_SKIP_F_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1635,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_07_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_SKIP_F_SKIP_F_C_07_PNG"
+      ]
+    },
+    "media.transport.next.c06": {
+      "mcf_id": 1636,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\next\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "6c47f7b54641903be660e960fcd048cf01cc725ce5ecb6be496b200f322202d9",
+      "original_record_sha256": "8b81208b28625c1427a78e5ffdfa665b24ad216edc4e1b8777c394ba03579268",
+      "design_record_sha256": "3f11877b663942baa9f45b70d076072587078669004830dadcd163376a82318a",
+      "design_pixel_sha256": "89971a0bb9bc822444b482d9b64b2a27d15e913a2d79df329ab09dba9bf03291",
+      "logical_aliases": [
+        {
+          "logical_id": 811,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1636,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1884,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_F_SKIP_F_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1636,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_06_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_SKIP_F_SKIP_F_C_06_PNG"
+      ]
+    },
+    "media.transport.next.c04": {
+      "mcf_id": 1637,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\next\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "8a5712b61395f5790e866f2448a89cdb3412db50d9ec6a182ac39369a221ddd9",
+      "original_record_sha256": "4b0da882cb5c7d6f5e5b7a073e88fa51872f45022206b32f9b8324df1e049e05",
+      "design_record_sha256": "83042ae1a6d239da61db2c38a34977cc8f39f6dacb91f4a09a8c969e50af8aaa",
+      "design_pixel_sha256": "c6f63ea588b958591d7fc449403a626d7c87e3c5bab343d85d9a59982f9e9455",
+      "logical_aliases": [
+        {
+          "logical_id": 810,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1637,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1883,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_F_SKIP_F_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1637,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_04_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_SKIP_F_SKIP_F_C_04_PNG"
+      ]
+    },
+    "media.transport.previous.c07": {
+      "mcf_id": 1638,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\previous\\c07.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "1d283a1334087dac44cb81a4453f17013dce5e57f229ce6cbd01ce33a741c09d",
+      "original_record_sha256": "8f832414fb2dc9a0db08708249839a56460751f345d2a6d4c1f8ddb7e4f96e59",
+      "design_record_sha256": "b1b2c47dffa084ebe6657f8437739385953ef647ff93a6897bd784c911e91817",
+      "design_pixel_sha256": "d8b28ee3c627ee2d6e2c9db0bee81549190ed73feeeb866eb6447d8e4d59ec95",
+      "logical_aliases": [
+        {
+          "logical_id": 808,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1638,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1882,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_B_SKIP_B_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1638,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_07_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_SKIP_B_SKIP_B_C_07_PNG"
+      ]
+    },
+    "media.transport.previous.c06": {
+      "mcf_id": 1639,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\previous\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "11b38fb3191177a7d2c536412495e2898a581f3935a3fb416821d10ce3e8b792",
+      "original_record_sha256": "e75d74bfd159d02b0c34844df89b1d879ca42029e6df812350a3dd62f8823b2d",
+      "design_record_sha256": "eb1121caf3ddbc66ceeab5ecdefcf4ead6bbabd90c8fb1fe746ad4e92d67c152",
+      "design_pixel_sha256": "44fd8644b62eedab41dfc2a365d01844631bdb75310897d7072edaa5e0cb40b1",
+      "logical_aliases": [
+        {
+          "logical_id": 807,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1639,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1881,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_B_SKIP_B_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1639,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_06_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_SKIP_B_SKIP_B_C_06_PNG"
+      ]
+    },
+    "media.transport.previous.c04": {
+      "mcf_id": 1640,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\previous\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "2b521477f73f6a065dc9b01f5193cc8b816caa942b40ff843b465f985308f476",
+      "original_record_sha256": "ddcaffe18d7ab752a96ce77396937ce8e5f9360545d60f21390279a7542f6529",
+      "design_record_sha256": "15e512ce1cd20e88a866c01005a364dc9057f4ef1fb88bd4c4b4122cd8eb1db6",
+      "design_pixel_sha256": "c80dc54f623e1fb2fb96a66a9e800847d78afb574d9f99aea2650927c020ffd1",
+      "logical_aliases": [
+        {
+          "logical_id": 806,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1640,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1880,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_SKIP_B_SKIP_B_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1640,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_04_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_SKIP_B_SKIP_B_C_04_PNG"
+      ]
+    },
+    "media.transport.play.c06": {
+      "mcf_id": 1642,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\play\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "f613444efa29aa906cfaa8325a592cf4c055157efde83e1d655a0856288f091c",
+      "original_record_sha256": "a46f0a6204c420c37aae3a95e486d58c87fd846691107184d2c8d2128a3c9b92",
+      "design_record_sha256": "4520fc7a1f94494b71e575cfa33fd9be1c6b8de0ab5dbff749b0b42ed40f2553",
+      "design_pixel_sha256": "f57444d544ec2e9da9ceceb4ba875790231ffafe0b4edf7dbb0d30d19f4503a8",
+      "logical_aliases": [
+        {
+          "logical_id": 803,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1642,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1878,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PLAY_PLAY_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1642,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_06_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_PLAY_PLAY_C_06_PNG"
+      ]
+    },
+    "media.transport.play.c04": {
+      "mcf_id": 1643,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\play\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "a6c389ad747f211d96b8dfe6c4e6dcde771060e0846c9d1ca4e6a3881c6080c0",
+      "original_record_sha256": "fcb7193daf8f1a38edfcc7f92c141095ddacc4af856ee9b0ec2a70b35ff4cffa",
+      "design_record_sha256": "b8ca42837aad83beab068db3fb8116cd89157a7874073d84e0744be5ddeb0a0a",
+      "design_pixel_sha256": "fb27d2f854e0f445a97e094d0ff47bfd360d7df42d7576060b8ad0019b9cca90",
+      "logical_aliases": [
+        {
+          "logical_id": 802,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1643,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1877,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PLAY_PLAY_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1643,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_04_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_PLAY_PLAY_C_04_PNG"
+      ]
+    },
+    "media.transport.pause.c07": {
+      "mcf_id": 1644,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\pause\\c07.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "b22d8415f69bd39bb1695288593d96ef67a730ca0250d8c92dfa6eecf058b165",
+      "original_record_sha256": "27fe7916cc09240bfb5e7edfc6ab386de9580c047542a082579c636436876e06",
+      "design_record_sha256": "a259c131aab511cbefd3df894f7e6bef7dd9573efac5a11f637fcebf41317345",
+      "design_pixel_sha256": "77eff83c2e89cec61232043c176bcdf9a66e74468427cdc2b3add9e90f9e0a5a",
+      "logical_aliases": [
+        {
+          "logical_id": 800,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1644,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1876,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PAUSE_PAUSE_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1644,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_07_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_PAUSE_PAUSE_C_07_PNG"
+      ]
+    },
+    "media.transport.pause.c06": {
+      "mcf_id": 1645,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\pause\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "5dc868828de5ae2de03d72ebbfde870305e505753889cdca6a5ac831db0eee4f",
+      "original_record_sha256": "0f43189a476ec5d21ab97205542d6d32beee8893bf0e7aec65a176e1b979aa3a",
+      "design_record_sha256": "3d259e51bc321502fdeda182ddcc719970b66aa2ae31fc106cc618f98000b09b",
+      "design_pixel_sha256": "0eb094e8d5dcf83a1432e52dd8ff57af3438a89166e1d72e8ae839d72ae02a12",
+      "logical_aliases": [
+        {
+          "logical_id": 799,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1645,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1875,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PAUSE_PAUSE_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1645,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_06_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_PAUSE_PAUSE_C_06_PNG"
+      ]
+    },
+    "media.transport.pause.c04": {
+      "mcf_id": 1646,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\pause\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "5cd6c09155e7fbf16a9932c41539b8faa6e47db4e3aa7c01a59b820c09907ef5",
+      "original_record_sha256": "35fc4bacb4fe665d200c55744181349e012fe35eb3311d73191acdd2ea6348ab",
+      "design_record_sha256": "d47181ccb35a69366281eed94da31dfa18247807cd20fc430194c3892d7cb102",
+      "design_pixel_sha256": "3a5dfa60eefc2e20b8adfa7e8ecb59de0f5deef579ef6a200145a78efaab399a",
+      "logical_aliases": [
+        {
+          "logical_id": 798,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1646,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        },
+        {
+          "logical_id": 1874,
+          "symbol": "ICONS_MEDIA_CONTROL_STAGE_PAUSE_PAUSE_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1646,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_04_PNG",
+        "ICONS_MEDIA_CONTROL_STAGE_PAUSE_PAUSE_C_04_PNG"
+      ]
+    },
+    "shared.page.previous.c07": {
+      "mcf_id": 1647,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\page\\previous\\c07.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "b3539fa4fb65ed1fae3e9cfa6ed5d5e5f0bc821217ec47d4686f66173934f473",
+      "original_record_sha256": "499790ff05f29d525e824e0d53ad36cac6663084779ce6ab3b158a6726153cf2",
+      "design_record_sha256": "74ae58a81d43b9ce629045760d3027e8e8eb513a6dd48c97a3914d28934964d0",
+      "design_pixel_sha256": "01bf2071613b81e94bd37f84ef1e19c213be0ac03001eb15f2eae6779cecc5b8",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1464,
+          "symbol": "ICONS_GENERAL_ITEM_PREVIOUS_ITEM_PREVIOUS_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1647,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "FAHRZEUG / shared item paging",
+      "affected_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_GENERAL_ITEM_PREVIOUS_ITEM_PREVIOUS_C_07_PNG"
+      ]
+    },
+    "shared.page.previous.c06": {
+      "mcf_id": 1648,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\page\\previous\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "9a22325a55b5d86d9e3c8cf2b82d8ac1dd13fc34b0648f858eab35cb3d7245eb",
+      "original_record_sha256": "9daac8cf6599d311b38924cf6567d4d6751c585f2a7ad7d15bf63401b0b7b7ae",
+      "design_record_sha256": "383ca10ea3de0b071e30118fdffcac08359df7ef7d3b1c370adca5fbca7d256a",
+      "design_pixel_sha256": "7c98cd7f667281216b37c25842812dfc7b54f6acdbe7b8dbc3ee4830f6edba62",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1463,
+          "symbol": "ICONS_GENERAL_ITEM_PREVIOUS_ITEM_PREVIOUS_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1648,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "FAHRZEUG / shared item paging",
+      "affected_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_GENERAL_ITEM_PREVIOUS_ITEM_PREVIOUS_C_06_PNG"
+      ]
+    },
+    "shared.page.previous.c04": {
+      "mcf_id": 1649,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\page\\previous\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "e12588b444fb774baa75ed54f6f97414b8b823134ab42be90069d1402be284ca",
+      "original_record_sha256": "5147daa8a69b86ed062f100b4de9506ba0572cdacdb95384b81f48166d666e4e",
+      "design_record_sha256": "ad40512f6c473368083e3b273d13c0d86f6372069ebbe30c0efcea4fcfc92183",
+      "design_pixel_sha256": "bb142b522a9bfb051a68555def60671dfeaa1c4b5bf17b88d5143a255d267c6f",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1462,
+          "symbol": "ICONS_GENERAL_ITEM_PREVIOUS_ITEM_PREVIOUS_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1649,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "FAHRZEUG / shared item paging",
+      "affected_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_GENERAL_ITEM_PREVIOUS_ITEM_PREVIOUS_C_04_PNG"
+      ]
+    },
+    "shared.page.next.c07": {
+      "mcf_id": 1650,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\page\\next\\c07.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "1b32eebab9fd0982af24318ce81aa806b564ff8117dd1ee17e69518215e05024",
+      "original_record_sha256": "57c086787898fccdf5f1fb5265d76e7ec0fcc64323acc7db2f0816b0b631119e",
+      "design_record_sha256": "e68d2d74b5d14659901a7ea962151bbaa8725ca07dae82988e95ea1e80640450",
+      "design_pixel_sha256": "c9bfc38a00abac48b754e61dde1a0798e749c48088912b475d2ec08cbc3855c8",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1459,
+          "symbol": "ICONS_GENERAL_ITEM_NEXT_ITEM_NEXT_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1650,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "FAHRZEUG / shared item paging",
+      "affected_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_GENERAL_ITEM_NEXT_ITEM_NEXT_C_07_PNG"
+      ]
+    },
+    "shared.page.next.c06": {
+      "mcf_id": 1651,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\page\\next\\c06.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "8f52d1cb38f1bb960e141d1d640c11d3a76075529cf3578bb0ead87444b7521f",
+      "original_record_sha256": "b2c5777466adcce78e42aae04de9bf787adaf67178cb49738588f35ccf7edae0",
+      "design_record_sha256": "d9707182e77f35404d848b0421882f5d12de9468a90f334e1d1efa6340ca38f8",
+      "design_pixel_sha256": "033d8e05042d430e7a1946591f360f828b37fcda83d3b7f62b71c621288520ea",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1458,
+          "symbol": "ICONS_GENERAL_ITEM_NEXT_ITEM_NEXT_C_06_PNG",
+          "bank": 0,
+          "mcf_id": 1651,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "FAHRZEUG / shared item paging",
+      "affected_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_GENERAL_ITEM_NEXT_ITEM_NEXT_C_06_PNG"
+      ]
+    },
+    "shared.page.next.c04": {
+      "mcf_id": 1652,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\page\\next\\c04.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "a39883fbcba3a179f0e4b1e26f8207ee35504920421b94923e5d64583491663b",
+      "original_record_sha256": "c2768f60aab87059c0e239b03bf6c34370ee35455ae66b3533e594d98411dae5",
+      "design_record_sha256": "8d6fb36a39eaa63fe80432151d01cc435e20fb9f157e0cb13d16e7fe9bf562cc",
+      "design_pixel_sha256": "2672b4c354c442baa3768f1a313a2c7317c3ec5f385a4702437ea238fa01c30c",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 1457,
+          "symbol": "ICONS_GENERAL_ITEM_NEXT_ITEM_NEXT_C_04_PNG",
+          "bank": 0,
+          "mcf_id": 1652,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "FAHRZEUG / shared item paging",
+      "affected_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_GENERAL_ITEM_NEXT_ITEM_NEXT_C_04_PNG"
+      ]
+    },
+    "media.transport.next.c02": {
+      "mcf_id": 1654,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\next\\c02.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "10bfd34ca93b7d35bc34f967a1fba93bffd7d4e5f9967bff302f3870dfd6b548",
+      "original_record_sha256": "cab68a87d35b6b3d47458e412e7936f65e35c0fdc5f79c973eab1a866e445e00",
+      "design_record_sha256": "def854b8a73a0cf7a7b8f522d708ab3385d77009c3eabe5e445caf6989ee6b23",
+      "design_pixel_sha256": "a57306b3d1a3cd43b14248e1ae39c2b8477bff9bb87393edc3b2e699267bbf0d",
+      "logical_aliases": [
+        {
+          "logical_id": 809,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_02_PNG",
+          "bank": 0,
+          "mcf_id": 1654,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_SKIP_F_MEDIA_CONTROL_SKIP_F_C_02_PNG"
+      ]
+    },
+    "media.transport.previous.c02": {
+      "mcf_id": 1655,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\previous\\c02.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "9e87bf081793e8de6c9d332eddea4c0f8c60e81c382716c7d2aab9c86c4a3ee8",
+      "original_record_sha256": "eca6f62c3a9cee78a8a38815d369e6551d1a5d8d48be5ffa8ed8cb4badb161af",
+      "design_record_sha256": "c09e01c28cfdf87752b2d7d220f1d222e6abf707a455b970812ef95752120f2e",
+      "design_pixel_sha256": "e5930058a0f9add0a3acbd21a1ebab8a9cf90b594f32e0477ce14395150cd96c",
+      "logical_aliases": [
+        {
+          "logical_id": 805,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_02_PNG",
+          "bank": 0,
+          "mcf_id": 1655,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_SKIP_B_MEDIA_CONTROL_SKIP_B_C_02_PNG"
+      ]
+    },
+    "media.transport.play.c07": {
+      "mcf_id": 1656,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\play\\c07.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "f59a4a891a594e9677a7b04266326c22a3e22b8cb2823adea06d949fd1c7be90",
+      "original_record_sha256": "c43161955531fe6670dc951a38d5a987a411659b798698be85ac94467d509da7",
+      "design_record_sha256": "0ff9a63a0ba0b3932cac0a081f9a3f383b98e1bad0aa9ff7e0b005874bf21ee2",
+      "design_pixel_sha256": "b3780ec368e09fef15c6878433f5492a2cf633d186acdc549bfa1f90a24e5621",
+      "logical_aliases": [
+        {
+          "logical_id": 804,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_07_PNG",
+          "bank": 0,
+          "mcf_id": 1656,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_07_PNG"
+      ]
+    },
+    "media.transport.play.c02": {
+      "mcf_id": 1657,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\play\\c02.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "3fee99eada34ed053088ac6036100738af6c44e989d7315d4d4d70f232808501",
+      "original_record_sha256": "6fb22c02d6223cd4ef1fa9c954f5a403273dc324113471ab3e537ef4e16ec468",
+      "design_record_sha256": "4d296ce90d1237b16ad45d0b40b712c4fbf0f6cc092b02ba68f31af546a50e2d",
+      "design_pixel_sha256": "11fc4c2612dbd13702e335796cced1834a63b1d6d2249d7bd7fe6382ee179c37",
+      "logical_aliases": [
+        {
+          "logical_id": 801,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_02_PNG",
+          "bank": 0,
+          "mcf_id": 1657,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_PLAY_MEDIA_CONTROL_PLAY_C_02_PNG"
+      ]
+    },
+    "media.transport.pause.c02": {
+      "mcf_id": 1658,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        120,
+        120
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\transport\\pause\\c02.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "8c41ad9e1dc03a92105988ae3f5e43f04357a7ef10156211af5314d170a0d0a4",
+      "original_record_sha256": "260aa2e324c87caf77adcaf2d593613edde94402510a6084022fd68f2ea3b5bc",
+      "design_record_sha256": "0c239c8e619ce4ec07f9d369a25902643b819fccff84fc09bf97809c78661f54",
+      "design_pixel_sha256": "f68746a02d87148177a2b76bf4f09a8412f70c71ff0798b431c57891decd3573",
+      "logical_aliases": [
+        {
+          "logical_id": 797,
+          "symbol": "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_02_PNG",
+          "bank": 0,
+          "mcf_id": 1658,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "Media transport",
+      "affected_scope": "skin3 MCF only; all symbolic aliases enumerated",
+      "confidence": "B: images.res reference and glyph visual match to photo 08; on-device result untested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_MEDIA_CONTROL_PAUSE_MEDIA_CONTROL_PAUSE_C_02_PNG"
+      ]
+    },
+    "shared.action.tile.normal": {
+      "mcf_id": 1707,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        182,
+        92
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\action\\tile\\normal.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "6a805100688e212c9c1e6564cc31de1fea155756c3269abccae86d8c19904949",
+      "original_record_sha256": "2c1a95d7dc9ce6811127655d71fcb64026c96616ae495c81e20f66db303118a7",
+      "design_record_sha256": "59f3d9c414326c79e2fe3409212df85aa886e762267dc064a046d46e3fe1409d",
+      "design_pixel_sha256": "b3db56baefb6bf1bb94b3085afd495926c422eb623352a3a15a2be592ef49767",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 502,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_NORMAL_PNGI",
+          "bank": 0,
+          "mcf_id": 1707,
+          "inset_index": 13,
+          "insets": [
+            30,
+            30,
+            30,
+            30
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 503,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_NORMAL_PNGB",
+          "bank": 0,
+          "mcf_id": 1707,
+          "inset_index": 63,
+          "insets": [
+            30,
+            35,
+            30,
+            35
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 504,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_NORMAL_PNGB",
+          "bank": 0,
+          "mcf_id": 1707,
+          "inset_index": 62,
+          "insets": [
+            35,
+            30,
+            35,
+            30
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 550,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_TVTUNER_DTV_FOOTER_RIGHT_SEPARATOR_PNGG",
+          "bank": 0,
+          "mcf_id": 1707,
+          "inset_index": 7,
+          "insets": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_NORMAL_PNGI",
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_NORMAL_PNGB",
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_NORMAL_PNGB",
+        "BUTTONS_SKODA_SPECIFIC_TVTUNER_DTV_FOOTER_RIGHT_SEPARATOR_PNGG"
+      ]
+    },
+    "shared.action.tile.selected": {
+      "mcf_id": 1714,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        182,
+        92
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\action\\tile\\selected.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "3fb8fac55f24631a8e3778a9ed66c96d2d0a443f1338918481c602e9ba38a8f9",
+      "original_record_sha256": "ec32efcee3a811df0b5eaf27109166b5e084b450ea0413ec4e6b612034888fbe",
+      "design_record_sha256": "cf658b12d01df4c92c57507c6880039dc96096b9f7f85d4cc532b66dc649b347",
+      "design_pixel_sha256": "8051e842552b164e024824fa912e22405425e0ef54a28804c32ce7a320058020",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 512,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_SELECTED_PNGT",
+          "bank": 0,
+          "mcf_id": 1714,
+          "inset_index": 13,
+          "insets": [
+            30,
+            30,
+            30,
+            30
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 513,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_SELECTED_PNGD",
+          "bank": 0,
+          "mcf_id": 1714,
+          "inset_index": 63,
+          "insets": [
+            30,
+            35,
+            30,
+            35
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 514,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_SELECTED_PNGD",
+          "bank": 0,
+          "mcf_id": 1714,
+          "inset_index": 62,
+          "insets": [
+            35,
+            30,
+            35,
+            30
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_SELECTED_PNGT",
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_SELECTED_PNGD",
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_SELECTED_PNGD"
+      ]
+    },
+    "shared.action.tile.pressed": {
+      "mcf_id": 1716,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        182,
+        92
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\action\\tile\\pressed.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "98a60168be1f01b3868c4b7913d1658909394d5ed7362b7fc18cc077ab4ead72",
+      "original_record_sha256": "7f7ab924504ab8a80f0417b3492994ab4e50b7a61ac60f3d564ba16900bddebd",
+      "design_record_sha256": "47ba143f8e9aa25a5ec278b1eb49cb0800e27a1a0fbb54d7b79e4b61830eae1a",
+      "design_pixel_sha256": "21c3bfc5ddfe4883cfcd6a54a878b6e9fdeba7392e8e124e73daf73e9c44d6b8",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 507,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_PRESSED_PNG",
+          "bank": 0,
+          "mcf_id": 1716,
+          "inset_index": 64,
+          "insets": [
+            20,
+            10,
+            20,
+            10
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 508,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_PRESSED_PNG",
+          "bank": 0,
+          "mcf_id": 1716,
+          "inset_index": 13,
+          "insets": [
+            30,
+            30,
+            30,
+            30
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 509,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_PRESSED_PNG",
+          "bank": 0,
+          "mcf_id": 1716,
+          "inset_index": 63,
+          "insets": [
+            30,
+            35,
+            30,
+            35
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 510,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_PRESSED_PNG",
+          "bank": 0,
+          "mcf_id": 1716,
+          "inset_index": 62,
+          "insets": [
+            35,
+            30,
+            35,
+            30
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_PRESSED_PNG",
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_PRESSED_PNG",
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_PRESSED_PNG",
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_PRESSED_PNG"
+      ]
+    },
+    "shared.action.tile.left_separator": {
+      "mcf_id": 1717,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        182,
+        92
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\action\\tile\\left_separator.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "9dccaccf560a72b2dadc289e5f68ef070e4f170f993f9ec14cd1a47e14f78859",
+      "original_record_sha256": "1c7969e212d2fd95011222dc682fb0bc3035c37d09c085812f9114533feeaef1",
+      "design_record_sha256": "bfa84b9973a3da5ffd23b8f5e82c2ed0f844c4e3b901c5f56908e991a8195e57",
+      "design_pixel_sha256": "d1a8af2a103b8bfc46b8d2db9be3710b13875dc8c977254c303b685150fe7145",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 506,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_NORMAL_LEFT_SEPARATOR_PNG",
+          "bank": 0,
+          "mcf_id": 1717,
+          "inset_index": 62,
+          "insets": [
+            35,
+            30,
+            35,
+            30
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_NORMAL_LEFT_SEPARATOR_PNG"
+      ]
+    },
+    "shared.action.tile.last_selected": {
+      "mcf_id": 1719,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        182,
+        92
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\shared\\action\\tile\\last_selected.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "4a9141d869a49eaa04d1fe3528f27cf1c0ae57b296e45717db84741e120f3330",
+      "original_record_sha256": "2efdf157e1f502ba6908d9a35fa2b4d49fed9b8fb9e76735a30992aee2809c0a",
+      "design_record_sha256": "8f49ea6aaaeba78567da75e1f1a9ac75ce98bbbe8c152a25e3cb69a8c15d089e",
+      "design_pixel_sha256": "158fb096d73dbb917330088a57c9a1bdcab782c5387813a071b672116f0ec974",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 501,
+          "symbol": "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_LAST_SELECTED_PNG",
+          "bank": 0,
+          "mcf_id": 1719,
+          "inset_index": 62,
+          "insets": [
+            35,
+            30,
+            35,
+            30
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "NAVIGATION / FAHRZEUG / shared action controls",
+      "affected_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BUTTONS_SKODA_SPECIFIC_CONTROLBAR_CONTROLBAR_LAST_SELECTED_PNG"
+      ]
+    },
+    "home.panel.ambient": {
+      "mcf_id": 2126,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        407,
+        300
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\home\\panel\\ambient.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "f5f05886ae1891c54847967fd9d3a6f0cf45b8a8b931ee78f7509242c18e1eff",
+      "original_record_sha256": "ed53acd40724d4349fe354ae28e912eff7247f749e22c3d02ed7e601c85ff5f6",
+      "design_record_sha256": "3bad74d9ebe1c02a3f0c510bd0241125ff401fe1ed5a0f71515a953e4e13d2c7",
+      "design_pixel_sha256": "04c2a0ebc434177f783ddaeac93b3aae66b52a2ef86bc3b3f24566c26317c55d",
+      "logical_aliases": [
+        {
+          "layer": "secondary",
+          "day_night_same": true,
+          "logical_id": 193,
+          "symbol": "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGO",
+          "bank": 1,
+          "mcf_id": 2126,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        },
+        {
+          "layer": "secondary",
+          "day_night_same": true,
+          "logical_id": 194,
+          "symbol": "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGT",
+          "bank": 1,
+          "mcf_id": 2126,
+          "inset_index": 32,
+          "insets": [
+            0,
+            8,
+            0,
+            8
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "HOME",
+      "affected_scope": "HOME; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "B: exact resource link, shape/photo match and runtime layer/color path traced",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGO",
+        "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGT"
+      ]
+    },
+    "home.panel.primary": {
+      "mcf_id": 2127,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        407,
+        300
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\home\\panel\\primary.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "6950f49fbaa2e4b9341f87d3c6dd6522e0e3ce726b46f3c01b35d6b0ed786e7b",
+      "original_record_sha256": "ec94a7e09e40ca01b21d287043b2a7bd895fd3852124408d606134c38a8c13ed",
+      "design_record_sha256": "c6099b14e474a9ea56946eac73d49360e9863d79ba0ba6d100ab94624c0777ae",
+      "design_pixel_sha256": "87922f0cd23681417d325804dcf1d022ed69b06bebaeb9d4c491cd5439c80cd6",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 193,
+          "symbol": "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGO",
+          "bank": 0,
+          "mcf_id": 2127,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        },
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 194,
+          "symbol": "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGT",
+          "bank": 0,
+          "mcf_id": 2127,
+          "inset_index": 32,
+          "insets": [
+            0,
+            8,
+            0,
+            8
+          ],
+          "scale_mode": 2,
+          "flags": 2
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "HOME",
+      "affected_scope": "HOME; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "B: exact resource link, shape/photo match and runtime layer/color path traced",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGO",
+        "BACKGROUNDS_PREMIUM_HOMESCREEN_TILES_BACKGROUND_TILES_SMALL_407X300_B_PNGT"
+      ]
+    },
+    "media.generic.card.source_off": {
+      "mcf_id": 2199,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        450,
+        450
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\generic\\card\\source_off.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "7a8977dc72a834fa99e0e8022805b74efec9a7edf391a5734aedcc72235b4959",
+      "original_record_sha256": "f90aa3194e50e432517009351960f5ee13bc6964abd1e9ce2224882e0610b9ad",
+      "design_record_sha256": "7f8501713be65c92d818ce74a094eefbdcf9c4ab8b65501dbd7b002321211a96",
+      "design_pixel_sha256": "18e950be3db846278782a2624f9f1cfe1b04fb4d49e5d6d21bee721058151b01",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 904,
+          "symbol": "ICONS_AUDIO_SOURCE_OFF_SOURCE_OFF_DEFAULT_SOURCE_OFF_DEFAULT_PNG",
+          "bank": 0,
+          "mcf_id": 2199,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "MEDIEN / BT and shared media fallback or artwork border",
+      "affected_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes.",
+      "confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_SOURCE_OFF_SOURCE_OFF_DEFAULT_SOURCE_OFF_DEFAULT_PNG"
+      ]
+    },
+    "media.bt.card.source_off": {
+      "mcf_id": 2202,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        450,
+        450
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\bt\\card\\source_off.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "11ff4979aa565fc5f2b1e1e62d5b6385399d0cbc45268e48f76fc01fbfb298a3",
+      "original_record_sha256": "7047de940e35a1c1c9781edb4bf9326b4be7d383d05c924e34220b437a2e06fd",
+      "design_record_sha256": "a52b4f126d0270f36d600fd61e5b794ae556e335f604cd0b6d53130c605044ec",
+      "design_pixel_sha256": "203ee51e0f35a4bc487552006565590df0089ee8e2e4172e7a267850391cf5dd",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 901,
+          "symbol": "ICONS_AUDIO_SOURCE_OFF_SOURCE_OFF_BT_SOURCE_OFF_BT_PNG",
+          "bank": 0,
+          "mcf_id": 2202,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "MEDIEN / BT and shared media fallback or artwork border",
+      "affected_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes.",
+      "confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_SOURCE_OFF_SOURCE_OFF_BT_SOURCE_OFF_BT_PNG"
+      ]
+    },
+    "media.generic.card.source_and_art_border": {
+      "mcf_id": 2214,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        450,
+        450
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\generic\\card\\source_and_art_border.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "b702a60dcec037f1620436b0259d0022cdf1e2d582ae85f67d410f3b0a9171f8",
+      "original_record_sha256": "19e94f3fb8e303455e766e40301282c3d46944aca0f4645995449ce6c996a3d9",
+      "design_record_sha256": "6db388a40666b04b17d4387611e2aaa196886c9015a27d36b1a9521e787122e0",
+      "design_pixel_sha256": "b7a805b89a12eb4adec4c0610261c5f773d038afa28551a2dd58a3688d41fa41",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 852,
+          "symbol": "ICONS_AUDIO_SOURCE_SOURCE_DEFAULT_SOURCE_DEFAULT_PNG",
+          "bank": 0,
+          "mcf_id": 2214,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "MEDIEN / BT and shared media fallback or artwork border",
+      "affected_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes.",
+      "confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_SOURCE_SOURCE_DEFAULT_SOURCE_DEFAULT_PNG"
+      ]
+    },
+    "media.bt.card.source": {
+      "mcf_id": 2217,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        450,
+        450
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\media\\bt\\card\\source.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "2d88192994b9ce8bb432be6284261733bb920a4746bf018c61d36227a5b71e95",
+      "original_record_sha256": "715a80a5c8edeae213a392dae026b1ae8333f63df9957e1e74e5176f5caf95ec",
+      "design_record_sha256": "231d316a059ee490d277bf4d6b21851fed53a2fb564825a0365ec48d66b65a6f",
+      "design_pixel_sha256": "09dfaaa0e0545721212fe66d0947ea413c19432e94dee0c99dca946334759323",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 849,
+          "symbol": "ICONS_AUDIO_SOURCE_SOURCE_BT_SOURCE_BT_PNG",
+          "bank": 0,
+          "mcf_id": 2217,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "MEDIEN / BT and shared media fallback or artwork border",
+      "affected_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes.",
+      "confidence": "A: exact static compiled view -> array -> logical image -> MCF; runtime cover/script references reviewed; not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "ICONS_AUDIO_SOURCE_SOURCE_BT_SOURCE_BT_PNG"
+      ]
+    },
+    "vehicle.trip.decorative_road": {
+      "mcf_id": 2221,
+      "container": "/net/mmx/mnt/app/eso/hmi/lsd/Resources/skin3/images.mcf",
+      "local_design_container": "neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+      "baseline": "neoui_v1 design reference; live predecessor unknown",
+      "dimensions": [
+        1280,
+        170
+      ],
+      "format": "RGBA8",
+      "palette": null,
+      "compression": "zlib; MCF mode0x1104",
+      "alpha": "preserve byte-for-byte",
+      "master": "resources\\masters\\vehicle\\trip\\decorative_road.png",
+      "master_publication": "source-derived; local-only; no redistribution rights established",
+      "master_sha256": "96ad8282af8f8b3765d42333ccc8717253180011f3b307c307b3f6afd6748e7b",
+      "original_record_sha256": "e8e08e6d0e7c06db78e58d0e01105546e6bca0ea166bf7c184c6ad17de32150e",
+      "design_record_sha256": "c75ea45c3178debc8f060f5e659d657b51d28d6b6f1d253289d3a80c16d7eac3",
+      "design_pixel_sha256": "19311b0e0a779d47bcf3e895677d424d033bf5a229ae357020782924b67b235d",
+      "logical_aliases": [
+        {
+          "layer": "primary",
+          "day_night_same": true,
+          "logical_id": 2592,
+          "symbol": "SPECIAL_NO_SCALE_CAR_BORDCOMPUTER_STREET_PNG",
+          "bank": 0,
+          "mcf_id": 2221,
+          "inset_index": 0,
+          "insets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale_mode": 0,
+          "flags": 0
+        }
+      ],
+      "state_source": "symbol Cxx codes or explicit named resource; image arrays retained in linked evidence; no guessed runtime labels",
+      "display_location": "FAHRZEUG trip road",
+      "affected_scope": "FAHRZEUG trip road; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits",
+      "confidence": "A: exact compiled-view constant -> image array/direct image -> images.res -> MCF; static, not car-tested",
+      "evidence": [
+        "neoui_reports/VERIFIED_MEDIA_BT_BUILD.json",
+        "neoui_reports/MEDIA_BT_RESOURCE_EVIDENCE.json",
+        "neoui_reports/VEHICLE_NAV_RESOURCE_EVIDENCE.json",
+        "neoui_reports/RUNTIME_TINT_EVIDENCE.json"
+      ],
+      "device_validation": "not performed for v3",
+      "unsafe_classes": "no safety/status, map renderer, layout or compiled code edits",
+      "firmware": "MHI2_ER_SKG13_P4526",
+      "mu": "1440",
+      "source_container_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
+      "day_night_variants": "identical source day/night record pairs on exact traced images.res; no selector edits",
+      "variants": [
+        "SPECIAL_NO_SCALE_CAR_BORDCOMPUTER_STREET_PNG"
+      ]
+    }
+  }
+}

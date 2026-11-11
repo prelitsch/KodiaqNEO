@@ -8573,5 +8573,9 @@
     }
   ],
   "independent_restore_sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58",
-  "independent_restore_exact": true
+  "independent_restore_exact": true,
+  "artifact_role": "preserved v1-based offline design, not a confirmed installed-baseline release",
+  "release_ready": false,
+  "expected_current_installed_baseline": null,
+  "recovery_scope": "exact v1 design reference only; not v2 rollback"
 }

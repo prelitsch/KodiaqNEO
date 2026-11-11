@@ -1,0 +1,451 @@
+{
+  "status": "preserved offline design changes; not an install manifest",
+  "source": {
+    "path": "NeoUI_v3\\neoui_workspace\\asset_dump\\skin3_neoui_v1_payload.mcf",
+    "record_count": 2345,
+    "bytes": 32173128,
+    "sha1": "641c34e42ed5843c1795bf860fd4cb7bbb913fdb",
+    "sha256": "dfb37cb771c58fb838d3797c3bf356e8fae9475aa980a236b7e9cba055f5cd58"
+  },
+  "target": {
+    "path": "NeoUI_v3\\neoui_build\\NeoUI_v3_MEDIA_BT_skin3.mcf",
+    "record_count": 2345,
+    "bytes": 32108500,
+    "sha1": "440d16ad507f9e4f776026d329caa3687ff73084",
+    "sha256": "86519e2621e63c3183d317fe6a0badca96030e38048db8962903707a74e2fd86"
+  },
+  "changes": [
+    {
+      "name": "lists.divider",
+      "mcf_id": 19,
+      "source_record_sha256": "b3726cc1f7066b6a29a7bdd0ff1db66bf6e1e733ed714699709a0916d0dc5c2e",
+      "new_record_sha256": "2c9913f04c3a222ec7b3f97ae81da84621d688b3f80427ecb00120e446e69f74",
+      "master": "resources\\masters\\lists\\divider.png",
+      "shared_scope": "SETUP / shared skin3 lists; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "lists.scrollbar.track",
+      "mcf_id": 84,
+      "source_record_sha256": "ed473127d8e3662c3778ded6310d34eb09dd21b397bda3607de9ad22c3636078",
+      "new_record_sha256": "48aded851521ab70a7a2b7aecc60ee9edf0c4272e34779ee233d4c5ed877c1f4",
+      "master": "resources\\masters\\lists\\scrollbar\\track.png",
+      "shared_scope": "SETUP / shared skin3 lists; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "nav.action.announcements.c04",
+      "mcf_id": 984,
+      "source_record_sha256": "1c77ed5911baf40e964ae51866ff211988b0cec3803d607b1392300b1418b96e",
+      "new_record_sha256": "25e4f148f879bc4bc5e0a75b8c5d0a07cfa442ea1ce6fbedc0c09496a7d9b492",
+      "master": "resources\\masters\\nav\\action\\announcements\\c04.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.action.tv.c06",
+      "mcf_id": 985,
+      "source_record_sha256": "094f96ecfe4d9d304f450e53991530cda6beb3173d0f5e1af287d0725a6cd2ea",
+      "new_record_sha256": "99c8aff07f3e932bda233de073cc03cd04f24812f576c75c6531477b25fa6ea5",
+      "master": "resources\\masters\\shared\\action\\tv\\c06.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "nav.action.switch_map.c06",
+      "mcf_id": 986,
+      "source_record_sha256": "d888737c97eb72ece1239173edcc301259d75d066a8413ba2d1a5aff07a89d08",
+      "new_record_sha256": "383584be7250483d10bde6d85a4a3981a62b4eb63bc21c355dfe41971fe2c23d",
+      "master": "resources\\masters\\nav\\action\\switch_map\\c06.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "nav.action.poi.c06",
+      "mcf_id": 987,
+      "source_record_sha256": "bb587baa958a662fe5adbb5823b2a22e27ce8836ecd566943e2cf19ed8b54a3b",
+      "new_record_sha256": "94203dae5e792d90d532435a24cb832c89469204f231cb15ee5e2687e5d5ecae",
+      "master": "resources\\masters\\nav\\action\\poi\\c06.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "nav.action.new_destination.c06",
+      "mcf_id": 988,
+      "source_record_sha256": "9f1df27a0514898686237fbc7f099c7579df8ccb3bcd62a5aa7a0b29fb8a0339",
+      "new_record_sha256": "3f76168ec114b1fed93b51c002d534e4280610678e6bcc16d3ed6a274d81c317",
+      "master": "resources\\masters\\nav\\action\\new_destination\\c06.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "nav.action.new_destination.c04",
+      "mcf_id": 989,
+      "source_record_sha256": "89b1b5b2359f42774f93b9d89f02a5197cd075d96c971b25efa60ea74bca69f6",
+      "new_record_sha256": "bec435b158dff07cee540b6c5742d1fd167aa219e507506ddca0ac64b21176d9",
+      "master": "resources\\masters\\nav\\action\\new_destination\\c04.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "nav.action.my_destinations.c06",
+      "mcf_id": 990,
+      "source_record_sha256": "0aa7f517b7ca852dfe729b775258c7d2dd04057e39ef6b30a2f401585ddfbedd",
+      "new_record_sha256": "830a89a3a2afc59f05c28403bda160d4e8fb2bf0fb526919a8ff776d6ca31e61",
+      "master": "resources\\masters\\nav\\action\\my_destinations\\c06.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "nav.action.my_destinations.c04",
+      "mcf_id": 991,
+      "source_record_sha256": "40de1c3d23bc5283ea4439f50b56d557bc8190d1f0757b382d8b0cfbf5ddda78",
+      "new_record_sha256": "2280e3aa7ef8ee320cc199418eb221660ef8a9cf698315ff6e015e9182f1521b",
+      "master": "resources\\masters\\nav\\action\\my_destinations\\c04.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "nav.action.map_view.c06",
+      "mcf_id": 992,
+      "source_record_sha256": "a819176363257dd0c1e32d63d16f05694d5d88b3e015ddab6c5f000ef58a1b92",
+      "new_record_sha256": "35d80df4b3c681fb697a8eecc6e8e4a4907b086e5a6171b02b510a46ac23f961",
+      "master": "resources\\masters\\nav\\action\\map_view\\c06.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "nav.action.map_view.c04",
+      "mcf_id": 993,
+      "source_record_sha256": "a060566a333abd137f9e4281c0f08c567ce640890d2f1b144e5625665afeda74",
+      "new_record_sha256": "afcb5a6501877a16eeb579632addbda867eec50d8294aaaa54b7ac1d50425353",
+      "master": "resources\\masters\\nav\\action\\map_view\\c04.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.action.setup",
+      "mcf_id": 1000,
+      "source_record_sha256": "45dbe3d9196539529437b70a52ff8fa9fa60f7be8e306cc71536b30aeae4fefa",
+      "new_record_sha256": "941d7effe41c9edb09336d193adaa917c5d52a6cd957bb43c81d703074282405",
+      "master": "resources\\masters\\shared\\action\\setup.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.action.tuner",
+      "mcf_id": 1014,
+      "source_record_sha256": "7b9e9e50f9a61f7dfa42c5c14054f0c6c182cb592c4dbdfe79c9512ea5701fc0",
+      "new_record_sha256": "62de01a22f29f1a24a37d86e0821a9dbe8f7ad9d91a503eedc5840a33f6fefdd",
+      "master": "resources\\masters\\shared\\action\\tuner.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.action.media",
+      "mcf_id": 1015,
+      "source_record_sha256": "ed8d6497e0352bc14ba48bef43f8bff88111f3b5242d92dc4012f13a4abcb7bd",
+      "new_record_sha256": "c89a08da3f3755ea18cf4a6aaa80c52533dcea56fab3d46d072f56bc5e4863b8",
+      "master": "resources\\masters\\shared\\action\\media.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "vehicle.action.view",
+      "mcf_id": 1024,
+      "source_record_sha256": "aeafc0a426c69225b199c74d5f96985508701fab7b0eab3cd78db3aefb9f8953",
+      "new_record_sha256": "b7ef759ba4053109b96b7a73a52fcdf2f707d8045800bd2f79bb36735adc0cd6",
+      "master": "resources\\masters\\vehicle\\action\\view.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "media.action.playlist",
+      "mcf_id": 1036,
+      "source_record_sha256": "68fd36fc849eeb1ac804ade9bce0f901eedc40f1c863205ec207ea35f9ce3c61",
+      "new_record_sha256": "efa4a6b9883d0d4539582dd1da23350a88c1aa64b0bec652c7daba775fdbe782",
+      "master": "resources\\masters\\media\\action\\playlist.png",
+      "shared_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
+    },
+    {
+      "name": "lists.type090.normal",
+      "mcf_id": 1131,
+      "source_record_sha256": "c5c86638851c2b8c44a13ca40d275ed238b8b78aed4746f49b61c8ccaba3f3d8",
+      "new_record_sha256": "6616026840d43489b7eaefc2fe403754fc0cf1bef49eac4103d57c89bdccd220",
+      "master": "resources\\masters\\lists\\type090\\normal.png",
+      "shared_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
+    },
+    {
+      "name": "lists.type090.pressed",
+      "mcf_id": 1133,
+      "source_record_sha256": "3336d455478c0c56d93d9f35e94575b4cdcd526759968fe8b502e34ab490906e",
+      "new_record_sha256": "696883c74682b3ad1222e0894f83c012a037eb3f0ec0ee4213c33bc01eed99df",
+      "master": "resources\\masters\\lists\\type090\\pressed.png",
+      "shared_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
+    },
+    {
+      "name": "lists.type090.disabled",
+      "mcf_id": 1134,
+      "source_record_sha256": "2e6e0c0fb862c7e4c11104e9235ac1fae6df2cf5c1dafbc2e3bc60090ea51adc",
+      "new_record_sha256": "af36652dac51c458be0f9778db337137db6cdde3e13933c35fd4ebd2178835c3",
+      "master": "resources\\masters\\lists\\type090\\disabled.png",
+      "shared_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
+    },
+    {
+      "name": "media.transport.next.c07",
+      "mcf_id": 1635,
+      "source_record_sha256": "ec4f2e47b9517899120ac603d137e73ba52a9f7e9b076b789e3a2d721e6771ed",
+      "new_record_sha256": "d142d4789ef7aefa82e5908d86d2f9773e0112ec99ddac34c8f0c42cc0229b36",
+      "master": "resources\\masters\\media\\transport\\next\\c07.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.next.c06",
+      "mcf_id": 1636,
+      "source_record_sha256": "8b81208b28625c1427a78e5ffdfa665b24ad216edc4e1b8777c394ba03579268",
+      "new_record_sha256": "3f11877b663942baa9f45b70d076072587078669004830dadcd163376a82318a",
+      "master": "resources\\masters\\media\\transport\\next\\c06.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.next.c04",
+      "mcf_id": 1637,
+      "source_record_sha256": "4b0da882cb5c7d6f5e5b7a073e88fa51872f45022206b32f9b8324df1e049e05",
+      "new_record_sha256": "83042ae1a6d239da61db2c38a34977cc8f39f6dacb91f4a09a8c969e50af8aaa",
+      "master": "resources\\masters\\media\\transport\\next\\c04.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.previous.c07",
+      "mcf_id": 1638,
+      "source_record_sha256": "8f832414fb2dc9a0db08708249839a56460751f345d2a6d4c1f8ddb7e4f96e59",
+      "new_record_sha256": "b1b2c47dffa084ebe6657f8437739385953ef647ff93a6897bd784c911e91817",
+      "master": "resources\\masters\\media\\transport\\previous\\c07.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.previous.c06",
+      "mcf_id": 1639,
+      "source_record_sha256": "e75d74bfd159d02b0c34844df89b1d879ca42029e6df812350a3dd62f8823b2d",
+      "new_record_sha256": "eb1121caf3ddbc66ceeab5ecdefcf4ead6bbabd90c8fb1fe746ad4e92d67c152",
+      "master": "resources\\masters\\media\\transport\\previous\\c06.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.previous.c04",
+      "mcf_id": 1640,
+      "source_record_sha256": "ddcaffe18d7ab752a96ce77396937ce8e5f9360545d60f21390279a7542f6529",
+      "new_record_sha256": "15e512ce1cd20e88a866c01005a364dc9057f4ef1fb88bd4c4b4122cd8eb1db6",
+      "master": "resources\\masters\\media\\transport\\previous\\c04.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.play.c06",
+      "mcf_id": 1642,
+      "source_record_sha256": "a46f0a6204c420c37aae3a95e486d58c87fd846691107184d2c8d2128a3c9b92",
+      "new_record_sha256": "4520fc7a1f94494b71e575cfa33fd9be1c6b8de0ab5dbff749b0b42ed40f2553",
+      "master": "resources\\masters\\media\\transport\\play\\c06.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.play.c04",
+      "mcf_id": 1643,
+      "source_record_sha256": "fcb7193daf8f1a38edfcc7f92c141095ddacc4af856ee9b0ec2a70b35ff4cffa",
+      "new_record_sha256": "b8ca42837aad83beab068db3fb8116cd89157a7874073d84e0744be5ddeb0a0a",
+      "master": "resources\\masters\\media\\transport\\play\\c04.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.pause.c07",
+      "mcf_id": 1644,
+      "source_record_sha256": "27fe7916cc09240bfb5e7edfc6ab386de9580c047542a082579c636436876e06",
+      "new_record_sha256": "a259c131aab511cbefd3df894f7e6bef7dd9573efac5a11f637fcebf41317345",
+      "master": "resources\\masters\\media\\transport\\pause\\c07.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.pause.c06",
+      "mcf_id": 1645,
+      "source_record_sha256": "0f43189a476ec5d21ab97205542d6d32beee8893bf0e7aec65a176e1b979aa3a",
+      "new_record_sha256": "3d259e51bc321502fdeda182ddcc719970b66aa2ae31fc106cc618f98000b09b",
+      "master": "resources\\masters\\media\\transport\\pause\\c06.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.pause.c04",
+      "mcf_id": 1646,
+      "source_record_sha256": "35fc4bacb4fe665d200c55744181349e012fe35eb3311d73191acdd2ea6348ab",
+      "new_record_sha256": "d47181ccb35a69366281eed94da31dfa18247807cd20fc430194c3892d7cb102",
+      "master": "resources\\masters\\media\\transport\\pause\\c04.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "shared.page.previous.c07",
+      "mcf_id": 1647,
+      "source_record_sha256": "499790ff05f29d525e824e0d53ad36cac6663084779ce6ab3b158a6726153cf2",
+      "new_record_sha256": "74ae58a81d43b9ce629045760d3027e8e8eb513a6dd48c97a3914d28934964d0",
+      "master": "resources\\masters\\shared\\page\\previous\\c07.png",
+      "shared_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.page.previous.c06",
+      "mcf_id": 1648,
+      "source_record_sha256": "9daac8cf6599d311b38924cf6567d4d6751c585f2a7ad7d15bf63401b0b7b7ae",
+      "new_record_sha256": "383ca10ea3de0b071e30118fdffcac08359df7ef7d3b1c370adca5fbca7d256a",
+      "master": "resources\\masters\\shared\\page\\previous\\c06.png",
+      "shared_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.page.previous.c04",
+      "mcf_id": 1649,
+      "source_record_sha256": "5147daa8a69b86ed062f100b4de9506ba0572cdacdb95384b81f48166d666e4e",
+      "new_record_sha256": "ad40512f6c473368083e3b273d13c0d86f6372069ebbe30c0efcea4fcfc92183",
+      "master": "resources\\masters\\shared\\page\\previous\\c04.png",
+      "shared_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.page.next.c07",
+      "mcf_id": 1650,
+      "source_record_sha256": "57c086787898fccdf5f1fb5265d76e7ec0fcc64323acc7db2f0816b0b631119e",
+      "new_record_sha256": "e68d2d74b5d14659901a7ea962151bbaa8725ca07dae82988e95ea1e80640450",
+      "master": "resources\\masters\\shared\\page\\next\\c07.png",
+      "shared_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.page.next.c06",
+      "mcf_id": 1651,
+      "source_record_sha256": "b2c5777466adcce78e42aae04de9bf787adaf67178cb49738588f35ccf7edae0",
+      "new_record_sha256": "d9707182e77f35404d848b0421882f5d12de9468a90f334e1d1efa6340ca38f8",
+      "master": "resources\\masters\\shared\\page\\next\\c06.png",
+      "shared_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.page.next.c04",
+      "mcf_id": 1652,
+      "source_record_sha256": "c2768f60aab87059c0e239b03bf6c34370ee35455ae66b3533e594d98411dae5",
+      "new_record_sha256": "8d6fb36a39eaa63fe80432151d01cc435e20fb9f157e0cb13d16e7fe9bf562cc",
+      "master": "resources\\masters\\shared\\page\\next\\c04.png",
+      "shared_scope": "FAHRZEUG / shared item paging; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "media.transport.next.c02",
+      "mcf_id": 1654,
+      "source_record_sha256": "cab68a87d35b6b3d47458e412e7936f65e35c0fdc5f79c973eab1a866e445e00",
+      "new_record_sha256": "def854b8a73a0cf7a7b8f522d708ab3385d77009c3eabe5e445caf6989ee6b23",
+      "master": "resources\\masters\\media\\transport\\next\\c02.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.previous.c02",
+      "mcf_id": 1655,
+      "source_record_sha256": "eca6f62c3a9cee78a8a38815d369e6551d1a5d8d48be5ffa8ed8cb4badb161af",
+      "new_record_sha256": "c09e01c28cfdf87752b2d7d220f1d222e6abf707a455b970812ef95752120f2e",
+      "master": "resources\\masters\\media\\transport\\previous\\c02.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.play.c07",
+      "mcf_id": 1656,
+      "source_record_sha256": "c43161955531fe6670dc951a38d5a987a411659b798698be85ac94467d509da7",
+      "new_record_sha256": "0ff9a63a0ba0b3932cac0a081f9a3f383b98e1bad0aa9ff7e0b005874bf21ee2",
+      "master": "resources\\masters\\media\\transport\\play\\c07.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.play.c02",
+      "mcf_id": 1657,
+      "source_record_sha256": "6fb22c02d6223cd4ef1fa9c954f5a403273dc324113471ab3e537ef4e16ec468",
+      "new_record_sha256": "4d296ce90d1237b16ad45d0b40b712c4fbf0f6cc092b02ba68f31af546a50e2d",
+      "master": "resources\\masters\\media\\transport\\play\\c02.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "media.transport.pause.c02",
+      "mcf_id": 1658,
+      "source_record_sha256": "260aa2e324c87caf77adcaf2d593613edde94402510a6084022fd68f2ea3b5bc",
+      "new_record_sha256": "0c239c8e619ce4ec07f9d369a25902643b819fccff84fc09bf97809c78661f54",
+      "master": "resources\\masters\\media\\transport\\pause\\c02.png",
+      "shared_scope": "skin3 MCF only; all symbolic aliases enumerated"
+    },
+    {
+      "name": "shared.action.tile.normal",
+      "mcf_id": 1707,
+      "source_record_sha256": "2c1a95d7dc9ce6811127655d71fcb64026c96616ae495c81e20f66db303118a7",
+      "new_record_sha256": "59f3d9c414326c79e2fe3409212df85aa886e762267dc064a046d46e3fe1409d",
+      "master": "resources\\masters\\shared\\action\\tile\\normal.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.action.tile.selected",
+      "mcf_id": 1714,
+      "source_record_sha256": "ec32efcee3a811df0b5eaf27109166b5e084b450ea0413ec4e6b612034888fbe",
+      "new_record_sha256": "cf658b12d01df4c92c57507c6880039dc96096b9f7f85d4cc532b66dc649b347",
+      "master": "resources\\masters\\shared\\action\\tile\\selected.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.action.tile.pressed",
+      "mcf_id": 1716,
+      "source_record_sha256": "7f7ab924504ab8a80f0417b3492994ab4e50b7a61ac60f3d564ba16900bddebd",
+      "new_record_sha256": "47ba143f8e9aa25a5ec278b1eb49cb0800e27a1a0fbb54d7b79e4b61830eae1a",
+      "master": "resources\\masters\\shared\\action\\tile\\pressed.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.action.tile.left_separator",
+      "mcf_id": 1717,
+      "source_record_sha256": "1c7969e212d2fd95011222dc682fb0bc3035c37d09c085812f9114533feeaef1",
+      "new_record_sha256": "bfa84b9973a3da5ffd23b8f5e82c2ed0f844c4e3b901c5f56908e991a8195e57",
+      "master": "resources\\masters\\shared\\action\\tile\\left_separator.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "shared.action.tile.last_selected",
+      "mcf_id": 1719,
+      "source_record_sha256": "2efdf157e1f502ba6908d9a35fa2b4d49fed9b8fb9e76735a30992aee2809c0a",
+      "new_record_sha256": "8f49ea6aaaeba78567da75e1f1a9ac75ce98bbbe8c152a25e3cb69a8c15d089e",
+      "master": "resources\\masters\\shared\\action\\tile\\last_selected.png",
+      "shared_scope": "NAVIGATION / FAHRZEUG / shared action controls; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "home.panel.ambient",
+      "mcf_id": 2126,
+      "source_record_sha256": "ed53acd40724d4349fe354ae28e912eff7247f749e22c3d02ed7e601c85ff5f6",
+      "new_record_sha256": "3bad74d9ebe1c02a3f0c510bd0241125ff401fe1ed5a0f71515a953e4e13d2c7",
+      "master": "resources\\masters\\home\\panel\\ambient.png",
+      "shared_scope": "HOME; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "home.panel.primary",
+      "mcf_id": 2127,
+      "source_record_sha256": "ec94a7e09e40ca01b21d287043b2a7bd895fd3852124408d606134c38a8c13ed",
+      "new_record_sha256": "c6099b14e474a9ea56946eac73d49360e9863d79ba0ba6d100ab94624c0777ae",
+      "master": "resources\\masters\\home\\panel\\primary.png",
+      "shared_scope": "HOME; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    },
+    {
+      "name": "media.generic.card.source_off",
+      "mcf_id": 2199,
+      "source_record_sha256": "f90aa3194e50e432517009351960f5ee13bc6964abd1e9ce2224882e0610b9ad",
+      "new_record_sha256": "7f8501713be65c92d818ce74a094eefbdcf9c4ab8b65501dbd7b002321211a96",
+      "master": "resources\\masters\\media\\generic\\card\\source_off.png",
+      "shared_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
+    },
+    {
+      "name": "media.bt.card.source_off",
+      "mcf_id": 2202,
+      "source_record_sha256": "7047de940e35a1c1c9781edb4bf9326b4be7d383d05c924e34220b437a2e06fd",
+      "new_record_sha256": "a52b4f126d0270f36d600fd61e5b794ae556e335f604cd0b6d53130c605044ec",
+      "master": "resources\\masters\\media\\bt\\card\\source_off.png",
+      "shared_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
+    },
+    {
+      "name": "media.generic.card.source_and_art_border",
+      "mcf_id": 2214,
+      "source_record_sha256": "19e94f3fb8e303455e766e40301282c3d46944aca0f4645995449ce6c996a3d9",
+      "new_record_sha256": "6db388a40666b04b17d4387611e2aaa196886c9015a27d36b1a9521e787122e0",
+      "master": "resources\\masters\\media\\generic\\card\\source_and_art_border.png",
+      "shared_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
+    },
+    {
+      "name": "media.bt.card.source",
+      "mcf_id": 2217,
+      "source_record_sha256": "715a80a5c8edeae213a392dae026b1ae8333f63df9957e1e74e5176f5caf95ec",
+      "new_record_sha256": "231d316a059ee490d277bf4d6b21851fed53a2fb564825a0365ec48d66b65a6f",
+      "master": "resources\\masters\\media\\bt\\card\\source.png",
+      "shared_scope": "Generic source2214 is the dynamic artwork border and fallback across media views. TYPE0901131/1133/1134 can affect other lists. Playlist1036 aliases playlist/setup. Skin3 only; no other skin tree changes."
+    },
+    {
+      "name": "vehicle.trip.decorative_road",
+      "mcf_id": 2221,
+      "source_record_sha256": "e8e08e6d0e7c06db78e58d0e01105546e6bca0ea166bf7c184c6ad17de32150e",
+      "new_record_sha256": "c75ea45c3178debc8f060f5e659d657b51d28d6b6f1d253289d3a80c16d7eac3",
+      "master": "resources\\masters\\vehicle\\trip\\decorative_road.png",
+      "shared_scope": "FAHRZEUG trip road; existing skin3 resources, all listed aliases/shared consumers; no skin0/1/2 edits"
+    }
+  ]
+}
