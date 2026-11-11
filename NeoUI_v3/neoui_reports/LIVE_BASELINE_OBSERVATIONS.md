@@ -24,7 +24,7 @@ The collector completed successfully with `PRECHECK_COLLECTOR_EXIT=0`, `STABLE_D
 | Release ready | `false` |
 | Free app space | `326097 KiB`; raw `df` reports `1404880 1078783 326097 77% /mnt/app` |
 | Storage budget | `NOT_CALCULATED_UNTIL_FINAL_PAYLOAD_AND_STRATEGY` |
-| Post-reboot verification | `UNKNOWN` |
+| Post-reboot verification | User confirms normal startup and v2 MENU worked after reboot |
 | Collector end | `COLLECTED_NOT_RELEASE_AUTHORIZATION` |
 | Wrapper exit | `PRECHECK_COLLECTOR_EXIT=0` |
 
@@ -41,7 +41,7 @@ The screenshot metadata hashes were compared read-only with the local extracted 
 | `images.res` | `66dbe279caba75ad1fd4c0cccd5e636756da2de8` | `66dbe279caba75ad1fd4c0cccd5e636756da2de8` | Match |
 | `viewhandler.zip` | `844c4127775432fdeb63ee6f020578e7ad015846` | `844c4127775432fdeb63ee6f020578e7ad015846` | Match |
 | `ambienceColorMap.res` | `2b32d5611856cb74f9c57ed596bd83dd98c82b71` | `2b32d5611856cb74f9c57ed596bd83dd98c82b71` | Match |
-| `info.txt` | Photo transcription appears to be `f1a2ac9acacffa5576cc58203d7c8f5e876e715b` | `f1a2ac9acacffa5576cc58203d7c8f5e876e7f5b` in `Complete initial SD Card Data` | Not confirmed; one glyph is visually ambiguous and the apparent values differ |
+| `Resources/skin3/info.txt` | Screenshot hash is visually ambiguous | Local skin3 copy SHA-1: `f1a2ac9acacffa5576cc58203d7c8f5e876e7f5b` | User confirms the installed skin3 `info.txt` matches the local copy; accepted as user-reported evidence |
 
 The photos show `MOUNTS_RAW_BEGIN`, a scrollable sequence of mount entries, and `MOUNTS_RAW_END`. Visible entries include `/mnt/app` on `qnx6`, `/mnt/ota`, `/mnt/media`, `/mnt/navdb`, `/mnt/ols`, `/mnt/gecache`, `/mnt/adb`, `/mnt/icab`, `/mnt/mmebackup`, `/mnt/gracenotedb`, `/mnt/speech`, `/mnt/boardbook`, `/mnt/gemodels`, `/logosdisk`, `/ramdisk`, and mounted navigation/speech media. The collector labels app mount state `UNINTERPRETED_RAW_OUTPUT_REQUIRES_REVIEW`; the photos do not change that assessment.
 

@@ -31,7 +31,7 @@ utc_now() {
     fi
     echo UNKNOWN
 }
-for cmd in on awk wc ls df mount; do
+for cmd in on awk wc ls df mount cat; do
     command -v "$cmd" >/dev/null 2>&1 || fail "missing dependency: $cmd"
 done
 for marker in INSTALL_V3_NOW RESTORE_V2 DIAGNOSTIC_ONLY; do
@@ -85,6 +85,10 @@ for NAME in images.res viewhandler.zip info.txt ambienceColorMap.res; do
     META=$(hash_file "$F") || fail "metadata hash failed: $NAME"
     echo "METADATA_${NAME}=$META"
 done
+INFO="$APP/eso/hmi/lsd/Resources/skin3/info.txt"
+echo 'SKIN_INFO_RAW_BEGIN'
+cat "$INFO" || fail 'skin info read failed: info.txt'
+echo 'SKIN_INFO_RAW_END'
 DF_TEXT=$(df -k "$APP") || fail 'df command failed'
 echo 'DF_RAW_BEGIN'
 echo "$DF_TEXT"

@@ -189,16 +189,15 @@
     "sha1": "28e26e2603497571663a93b303e930a2d4787f50",
     "sha256": "cfe0aabb1e67e2ea06a07ea365fc24f69e3901e0508a02e87ab8525b92dac103"
   },
-  "live_baseline_evidence": "user screenshots: firmware/MU exact; skin3 MCF SHA1+size match v2; selected skin unknown; SHA256 and UTC unavailable; 3 shared metadata hashes match local lineage; info.txt source review and mount semantics pending",
+  "live_baseline_evidence": "User screenshots: firmware/MU exact; skin3 MCF SHA1+size match v2; stable; collector exit 0. User confirms skin3 info.txt matches local copy and v2 normal startup/MENU work after reboot. SHA256 and UTC unavailable; selected skin unknown; 3 shared metadata hashes match local lineage; mount semantics pending.",
   "release_ready": false,
   "installation_package": "not generated: release gates and QNX failure-path validation remain open; no absolute fail-safe guarantee can be made",
   "release_blockers": [
     "selected skin/index unknown",
     "device SHA256 and UTC unavailable",
-    "info.txt screenshot hash needs exact confirmation; local comparison is visually ambiguous",
     "QNX mount semantics need review",
-    "post-reboot v2 function unconfirmed",
-    "final backup/copy strategy and QNX failure-path exercise not validated",
+    "recovery inventory and install/restore failure-path exercise not validated",
+    "final backup/copy strategy not validated on QNX",
     "explicit release review and authorization required"
   ],
   "preliminary_capacity_estimate": {

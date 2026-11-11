@@ -10,7 +10,7 @@ def parse_receipt(text):
    if line==block+'_RAW_END':block=None
    else:blocks[block].append(line)
    continue
-  if line in ['DF_RAW_BEGIN','MOUNTS_RAW_BEGIN']:
+  if line in ['DF_RAW_BEGIN','MOUNTS_RAW_BEGIN','SKIN_INFO_RAW_BEGIN']:
    block=line[:-10]
    if block in blocks:raise ValueError('duplicate raw block')
    blocks[block]=[];continue

@@ -4,7 +4,7 @@
 
 The user supplied read-only collector screenshots showing `MHI2_ER_SKG13_P4526` / `MU1440`, the skin3 MCF SHA-1 `28e26e2603497571663a93b303e930a2d4787f50`, 32,861,680 bytes, and `REFERENCE_MATCH=neoui_v2_pilot`. The collector ended `COLLECTED_NOT_RELEASE_AUTHORIZATION`, was stable during collection, and wrapper exit was 0. Three shared metadata hashes match the local skin1-derived reference. See [LIVE_BASELINE_OBSERVATIONS.md](LIVE_BASELINE_OBSERVATIONS.md).
 
-SHA256 and UTC time were unavailable on the unit, the selected skin is unknown, and metadata/mount/post-reboot/recovery checks remain incomplete. The live screenshots support v2 as the **working offline predecessor**; they do not clear a release gate or activate `release-policy.json`.
+SHA256 and UTC time were unavailable on the unit, the selected skin is unknown, and mount/recovery checks remain incomplete. User confirms v2 starts normally and its MENU works after reboot. The user confirms the installed `Resources/skin3/info.txt` matches the local skin3 copy. The live screenshots support v2 as the **working offline predecessor**; they do not clear a release gate or activate `release-policy.json`.
 
 ## Rebased offline candidate
 
@@ -21,6 +21,6 @@ The original v1-based design candidate remains preserved. Candidate and restorat
 
 ## Install build status
 
-No installation package is being labeled complete or fail-safe yet. On-device QNX installation and rollback paths have not been failure-tested; interrupted writes can leave the GUI unusable, and rollback is not guaranteed to recover a boot failure. The selected skin is unknown, UTC/SHA-256 are unavailable, raw QNX mount behavior and `info.txt` lineage need review, post-reboot v2 function is unconfirmed, and final payload/backup/storage calculations have not been approved.
+No installation package is being labeled complete or fail-safe yet. On-device QNX installation and rollback paths have not been failure-tested; interrupted writes can leave the GUI unusable, and rollback is not guaranteed to recover a boot failure. The selected skin is unknown, UTC/SHA-256 are unavailable, raw QNX mount behavior needs review; the skin3 `info.txt` match is user-confirmed, post-reboot v2 operation is user-confirmed, and final payload/backup/storage calculations have not been approved.
 
 `release-policy.json` remains `installed_baseline: null`, `selected_skin: null`, and `release_ready: false`. Do not copy or run an installer. The next release work is to close the listed evidence gaps, finish a same-filesystem installer and restore failure-path simulation, obtain explicit release review/authorization, and only then prepare a marker-armed SD package. No SD or vehicle writes were performed by this offline reconciliation.
