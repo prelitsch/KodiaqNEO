@@ -1,4 +1,10 @@
-# Reconciliation revision
+# Mapped-PNG v2-based revision pipeline
+
+Added normal Build/Audit/Test entry points, declarative edit-name enforcement and immutable input-versioned output. Each revision includes v2/previous/new resource previews, all 54 PNG snapshots, manifests/checksums and independently reconstructed exact predecessor bytes. The builder preserves all 94 v2 changes (including 74 MENU/foundation changes) and every unmapped record. It validates full MCF decompression/CRCs, dimensions/alpha, decoded pixels, ID whitelist and deterministic packing. Existing differing outputs are refused; failed builds do not advance the offline latest pointer.
+
+No production master artwork was changed. Tests edited copied non-safety icon masters in isolated local fixtures and checked successive revisions, exact restoration and failure cases. The unchanged current masters reproduce the preserved v2-based candidate. Installation and release policy remain separate and blocked. See `neoui_reports/VISUAL_PIPELINE_VALIDATION.md`.
+
+## Historical reconciliation revision
 
 No existing graphics or previews changed. The54-resource v1-based design container retains SHA25686519e2621e63c3183d317fe6a0badca96030e38048db8962903707a74e2fd86. Existing research, transformations, sources and recovery records are preserved.
 

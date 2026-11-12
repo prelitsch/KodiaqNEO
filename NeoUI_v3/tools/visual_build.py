@@ -7,7 +7,8 @@ from build_verified_v3 import rebuild,record_with_pixels
 OUT=Path(__file__).resolve().parents[1]
 def sha(b):return hashlib.sha256(b).hexdigest()
 def read_png(path,w,h):
- b=path.read_bytes()
+ return read_png_bytes(path.read_bytes(),w,h)
+def read_png_bytes(b,w,h):
  if b[:8]!=b'\x89PNG\r\n\x1a\n':raise ValueError('PNG signature')
  off=8;compressed=bytearray();header=False;ended=False
  while off<len(b):

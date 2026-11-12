@@ -27,7 +27,9 @@ neoui_reports/viewhandler_image_symbols.csv
 # Editable derivatives and immutable offline rehearsal output remain local-only.
 resources/masters/
 neoui_build/rehearsals/
+neoui_build/visual_builds/
 neoui_workspace/baseline_receipts/
+neoui_workspace/python-path.txt
 neoui_reports/LIVE_BASELINE_REVIEW.json
 *.mcf
 *.bin
